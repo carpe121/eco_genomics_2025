@@ -42,3 +42,29 @@ into the `myscripts/` folder for use with red spruce genomics.
 Red spruce aligned to reference genome using `mapping.sh` and `SBATCH_header.txt` with the program BWA-mem. BWA-mem did not work for all samples and will need to resubmit later.
 
 `myscripts/process_bam.sh` and `myscripts/bam_stats.sh` were combined into a wrapper.
+
+
+### 09/18/25: Review bamstats and set up nucleotide diversity estimation using ANGSD
+
+Reran script because I forgot to add "G" to `process_stats_wrapper.sh` Slurm memory requirements.
+
+Wrote a short script called `bamstats_review.R` located in `myscripts/` to evaluate mapping success.
+
+Saw about 66% of genome mapped to proper views.
+
+Copied script `ANGSD.sh` to `myscripts/` to quickly generate all the filenames needed for ANGSD to analyze, then run ANGSD. The first run was to analyze all sites on the genome.
+
+Make sure `--nThreads` equals `SBATCH --cpus-per-task`.
+
+Made a second script called `ANGSD_.sh` to estimate theta and other metrics of genomic diversity along the genome. `ANGSD.sh` and `ANGSH_.sh` were placed in a wrapper `diversity_wrapper.sh` together to run over the weekend.
+
+
+
+
+
+
+
+
+
+
+

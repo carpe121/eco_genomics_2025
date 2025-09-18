@@ -1,0 +1,472 @@
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 1915281 end pairs
+     and 95174 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 254 ms
+  found 1147054 duplicates
+collected list of positions in 0 min 7 sec
+removing duplicates...
+collected list of positions in 0 min 13 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 2534242 end pairs
+     and 102822 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 344 ms
+  found 1949014 duplicates
+collected list of positions in 0 min 8 sec
+removing duplicates...
+collected list of positions in 0 min 16 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 2011660 end pairs
+     and 86022 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 266 ms
+  found 1236878 duplicates
+collected list of positions in 0 min 7 sec
+removing duplicates...
+collected list of positions in 0 min 14 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 1614316 end pairs
+     and 67359 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 229 ms
+  found 1065906 duplicates
+collected list of positions in 0 min 5 sec
+removing duplicates...
+collected list of positions in 0 min 11 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 1492604 end pairs
+     and 71893 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 197 ms
+  found 852318 duplicates
+collected list of positions in 0 min 5 sec
+removing duplicates...
+collected list of positions in 0 min 11 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 2101492 end pairs
+     and 97659 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 293 ms
+  found 1380818 duplicates
+collected list of positions in 0 min 7 sec
+removing duplicates...
+collected list of positions in 0 min 14 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 2555470 end pairs
+     and 113838 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 349 ms
+  found 1746162 duplicates
+collected list of positions in 0 min 8 sec
+removing duplicates...
+collected list of positions in 0 min 16 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+finding positions of the duplicate reads in the file...
+  sorted 1687303 end pairs
+     and 81720 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 224 ms
+  found 957529 duplicates
+collected list of positions in 0 min 6 sec
+removing duplicates...
+collected list of positions in 0 min 12 sec
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
+
+sambamba 1.0.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2023
+    LDC 1.32.0 / DMD v2.102.2 / LLVM14.0.6 / bootstrap LDC - the LLVM D compiler (1.32.0)
+
+
+Usage: sambamba [command] [args...]
+
+  Available commands:
+
+    view        view contents and convert from one format
+                to another (SAM/BAM/JSON/UNPACK)
+    index       build index (BAI)
+    merge       merge files (BAM)
+    sort        sort file (BAM)
+    slice       slice file (BAM using BED)
+    markdup     mark or remove duplicates (BAM)
+    subsample   subsample (BAM)
+    flagstat    output statistics (BAM)
+    depth       output statistics (BAM)
+    validate    simple validator (BAM)
+
+  No longer recommended:
+
+    mpileup     parallel execution of samtools (BAM)
+
+To get help on a particular command, call it without args.
+
+Global options
+
+    -q          quiet mode (do not show banner)
+
+For bug reports and feature requests see
+
+       https://github.com/biod/
+
