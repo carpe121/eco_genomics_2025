@@ -58,6 +58,11 @@ Make sure `--nThreads` equals `SBATCH --cpus-per-task`.
 
 Made a second script called `ANGSD_.sh` to estimate theta and other metrics of genomic diversity along the genome. `ANGSD.sh` and `ANGSH_.sh` were placed in a wrapper `diversity_wrapper.sh` together to run over the weekend.
 
+### 09/23/25
+Checked on ANGSD results from the weekend. Built new Rmd script, `Nucleotide_Diversity.Rmd`, in the `mydocs` folder. In the Rmd, we explored the ANGSD results by calculating pi and Watterson's theta, and using `ggplot2` to graph the results.
+
+We also calculated effective population size for each of our samples using Watterson's theta. The results are stored in a lab-wide Google Sheets. We concluded by calculating the maximum and minimum Tajima's D across the genome.
+
 
 
 

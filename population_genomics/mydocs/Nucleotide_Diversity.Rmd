@@ -1,0 +1,97 @@
+---
+title: "Nucleotide Diversity"
+author: "Madeline Carpenter"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir="~/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/diversity/")
+```
+
+# Import Libraries
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+
+#Theta
+```{r}
+#theta <- read.table("2019_ALL_win50000_step50000.thetas", sep="\t", header=T)
+
+theta <- read.table("/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/examples/2030_ALL_win50000_step50000.thetas", sep="\t", header=T)
+
+```
+
+Scale theta by nSites.
+```{r}
+theta$tWsite <- theta$tW/theta$nSites #scaling by Wattersons theta
+theta$tPsite <- theta$tP/theta$nSites #scaling by Pi
+```
+
+```{r}
+summary(theta)
+
+theta2 <- theta %>%
+  arrange(Chr, WinCenter) %>%
+  filter(nSites>100)
+
+summary(theta2)
+```
+
+```{r}
+ggplot(theta2, aes(nSites)) +
+  geom_histogram(bin=50, fill="lightblue", color="black") +
+  geom_vline(xintercept = median(theta2$nSites), color="red", linetype="dashed") +
+  labs(title="Distribution of windows with data", x="Number of Sites in 50,000 bp Windows", y="Frequency")
+```
+
+Plotting nucleotide diversity as Pi
+```{r}
+ggplot(theta2, aes(x=Chr, y=tPsite, color=Chr)) +
+  geom_point(size=0.75, shape=1, show.legend=FALSE) +
+  ylim(0,0.07) +
+  labs(title="Nucleotide Diversity in 50kb Windows for Population 2019", x="Scaffold", y="Theta-Pi")
+```
+
+```{r}
+# compare pi and theta-W together and look for deviation
+
+ggplot(theta2, aes(x=tWsite, y=tPsite, color=Chr)) +
+  geom_point(size=0.75, shape=1, show.legend = FALSE) +
+  geom_abline(slope=1, intercept=0, linetype="dashed", color="black") +
+  labs(title="Pairwise differences vs. segregating sites for population 2019", x="Theta.W", y="Theta.Pi")
+
+
+```
+
+Which windows have evidence of negative D and low nucleotide diversity?
+
+Combination of both is indicative of selective sweep.
+```{r}
+theta2[which(theta2$Tajima < -1.5 & theta2$tPsite < 0.001),1:5]
+```
+
+# Figuring out other population metrics
+Black spruce generation time = 30 years
+Black spruce average mutation rate/generation = 2.5*10^(-9)
+
+See Column E on spreadsheet
+```{r}
+#thw <- avg theta/site (see Google sheets + put on sheets when done)
+  
+ploidy <- (2*2) #dioecious and sexually reproducing
+gentime <- 30
+mutrate <- (2.5*(10^(-9)))
+
+ne <- (ploidy*gentime*mutrate)/thw
+```
+
+Pull out extremes of Tajima's D
+```{r}
+BigD <- theta2[which(theta2$Tajima==max(theta2$Tajima)),]
+MinD <- theta2[which(theta2$Tajima==min(theta2$Tajima)),]
+```
+
+

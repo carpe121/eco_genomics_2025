@@ -7,7 +7,7 @@ module load gcc angsd
 
 ### Set up directories and variables
 
-mkdir ~/projects/eco_genomics_2025/population_genomics/mydata/ANGSD
+#mkdir ~/projects/eco_genomics_2025/population_genomics/mydata/ANGSD
 
 INPUT="/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/bams"
 
