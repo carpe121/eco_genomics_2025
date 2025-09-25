@@ -1,0 +1,5 @@
+mkdir: cannot create directory ‘/users/m/c/carpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/Fst’: No such file or directory
+/var/spool/slurm/d/job1590107/slurm_script: line 40: /users/m/c/carpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/Fst/2019_WISC_2D.sfs: No such file or directory
+	-> Problem opening file: '/users/m/c/carpen3/projects/eco_genomics_2025/population_genomics/mydata/ANGSD/2019_All.saf.idx'
+/var/spool/slurm/d/job1590107/slurm_script: line 55: /users/m/c/carpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/Fst/2019_WISC_Fst.txt: No such file or directory
+/var/spool/slurm/d/job1590107/slurm_script: line 61: /users/m/c/carpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/Fst/2019_WISC_Fst_50kbWindows.txt: No such file or directory

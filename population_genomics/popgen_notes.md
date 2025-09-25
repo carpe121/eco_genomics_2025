@@ -63,7 +63,14 @@ Checked on ANGSD results from the weekend. Built new Rmd script, `Nucleotide_Div
 
 We also calculated effective population size for each of our samples using Watterson's theta. The results are stored in a lab-wide Google Sheets. We concluded by calculating the maximum and minimum Tajima's D across the genome.
 
+Results suggest latitudinal trend in diversity (highest in the north, lowest in the south).
 
+### 09/25/25
+Wrote script `ANGSD_Fst.sh` to calculate Fst between black and red spruce populations. Ran script during class time. Population for my population (2019) has an Fst value of 0.371953 compared to black spruce.
+
+Wrote script `PCAngsd_RSBS.sh` to display PCA for all populations of red and black spruce populations. Ran script during class time.
+
+Graphed PCA and ADMIXTURE plots in Rmd `PCA_Admix.Rmd` and saved in `mydocs/`.
 
 
 

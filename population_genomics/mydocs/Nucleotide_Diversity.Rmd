@@ -18,10 +18,7 @@ library(tidyverse)
 
 #Theta
 ```{r}
-#theta <- read.table("2019_ALL_win50000_step50000.thetas", sep="\t", header=T)
-
-theta <- read.table("/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/examples/2030_ALL_win50000_step50000.thetas", sep="\t", header=T)
-
+theta <- read.table("2019_All_win50000_step50000.thetas", sep="\t", header=T)
 ```
 
 Scale theta by nSites.
@@ -85,7 +82,7 @@ ploidy <- (2*2) #dioecious and sexually reproducing
 gentime <- 30
 mutrate <- (2.5*(10^(-9)))
 
-ne <- (ploidy*gentime*mutrate)/thw
+#ne <- (ploidy*gentime*mutrate)/thw
 ```
 
 Pull out extremes of Tajima's D

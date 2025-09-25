@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#SBATCH --job-name=angst_final
+#SBATCH --output=/users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/mylogs/%x_%j.out
+#SBATCH --partition=general
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=70G
+#SBATCH --time=24:00:00
+
 ### load modules
 
 module purge
@@ -9,9 +18,9 @@ module load gcc angsd
 
 REPO="/users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics"
 
-mkdir ${REPO}/myresults/ANGSD
+#mkdir ${REPO}/myresults/ANGSD
 
-mkdir ${REPO}/myresults/ANGSD/diversity
+#mkdir ${REPO}/myresults/ANGSD/diversity
 
 INPUT="${REPO}/mydata/ANGSD"
 
@@ -21,7 +30,7 @@ REF="/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.
 
 MYPOP="2019"
 
-SUFFIX="ALL"   # All sites (=ALL) or just polymorphic sites (=POLY)?
+SUFFIX="All"   # All sites (=ALL) or just polymorphic sites (=POLY)?
 
 #Estimation of the SFS
 realSFS ${INPUT}/${MYPOP}_${SUFFIX}.saf.idx \
