@@ -66,13 +66,16 @@ We also calculated effective population size for each of our samples using Watte
 Results suggest latitudinal trend in diversity (highest in the north, lowest in the south).
 
 ### 09/25/25
-Wrote script `ANGSD_Fst.sh` to calculate Fst between black and red spruce populations. Ran script during class time. Population for my population (2019) has an Fst value of 0.371953 compared to black spruce.
+Wrote script `ANGSD_Fst.sh` to calculate Fst between black and red spruce populations. Ran script during class time. We used the `beagle` file in the class datashare with the genotype likelihoods already computed: `/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ANGSD/RSBS_poly.beagle.gz`. Population for my population (2019) has an Fst value of 0.371953 compared to black spruce.
 
-Wrote script `PCAngsd_RSBS.sh` to display PCA for all populations of red and black spruce populations. Ran script during class time.
+Wrote script `PCAngsd_RSBS.sh` to display PCA for all populations of red (n=95) and black spruce (n=18) populations. Ran script during class time.
 
 Graphed PCA and ADMIXTURE plots in Rmd `PCA_Admix.Rmd` and saved in `mydocs/`.
 
+### 09/30/25
+Reran PCA and ADMIXTURE plots with K=3 to see how K changes PCA values.
 
+Wrote a script called `PCAngsd_allRS_selection.sh` to calculate minor allele frequency.
 
 
 

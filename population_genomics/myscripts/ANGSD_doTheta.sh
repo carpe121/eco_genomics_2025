@@ -30,7 +30,7 @@ REF="/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.
 
 MYPOP="2019"
 
-SUFFIX="All"   # All sites (=ALL) or just polymorphic sites (=POLY)?
+SUFFIX="ALL"   # All sites (=ALL) or just polymorphic sites (=POLY)?
 
 #Estimation of the SFS
 realSFS ${INPUT}/${MYPOP}_${SUFFIX}.saf.idx \
