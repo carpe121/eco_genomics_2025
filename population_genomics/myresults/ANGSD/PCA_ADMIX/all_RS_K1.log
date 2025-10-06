@@ -1,0 +1,11 @@
+PCAngsd v1.36.1
+Time: 06/10/2025 19:26:51
+Directory: /gpfs1/home/m/c/mcarpen3
+Options:
+	--beagle /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ANGSD/allRS_poly.beagle.gz
+	--threads 10
+	--out /users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/PCA_ADMIX//all_RS_K1
+	--admix
+
+Loaded 687863 sites and 95 samples.
+Number of sites after MAF filtering (0.05): 542303

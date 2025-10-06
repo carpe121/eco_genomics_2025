@@ -1,0 +1,56 @@
+------------------------------------
+PCAngsd v1.36.1
+Jonas Meisner and Anders Albrechtsen
+Using 10 thread(s)
+------------------------------------
+
+Parsing Beagle file.
+Traceback (most recent call last):
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/bin/pcangsd", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/lib/python3.11/site-packages/pcangsd/main.py", line 203, in main
+    assert os.path.isfile(args.beagle), "Beagle file doesn't exist!"
+AssertionError: Beagle file doesn't exist!
+------------------------------------
+PCAngsd v1.36.1
+Jonas Meisner and Anders Albrechtsen
+Using 10 thread(s)
+------------------------------------
+
+Parsing Beagle file.
+Traceback (most recent call last):
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/bin/pcangsd", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/lib/python3.11/site-packages/pcangsd/main.py", line 203, in main
+    assert os.path.isfile(args.beagle), "Beagle file doesn't exist!"
+AssertionError: Beagle file doesn't exist!
+------------------------------------
+PCAngsd v1.36.1
+Jonas Meisner and Anders Albrechtsen
+Using 10 thread(s)
+------------------------------------
+
+Parsing Beagle file.
+Traceback (most recent call last):
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/bin/pcangsd", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/lib/python3.11/site-packages/pcangsd/main.py", line 203, in main
+    assert os.path.isfile(args.beagle), "Beagle file doesn't exist!"
+AssertionError: Beagle file doesn't exist!
+------------------------------------
+PCAngsd v1.36.1
+Jonas Meisner and Anders Albrechtsen
+Using 10 thread(s)
+------------------------------------
+
+Parsing Beagle file.
+Traceback (most recent call last):
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/bin/pcangsd", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/gpfs1/sw/rh9/pkgs/pcangsd/1.36.1/pcangsd/lib/python3.11/site-packages/pcangsd/main.py", line 203, in main
+    assert os.path.isfile(args.beagle), "Beagle file doesn't exist!"
+AssertionError: Beagle file doesn't exist!

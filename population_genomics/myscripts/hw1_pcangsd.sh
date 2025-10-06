@@ -12,31 +12,28 @@
 module purge
 module load pcangsd/1.36.1
 
-# Path to your input data (where the beagle file lives)
+# Path to input
 
 INPUT="/gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ANGSD"
 
-# Make directory and set path to save your output (in your repo):
-
-#mkdir ~/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/PCA_ADMIX
-
+# Specify output
 OUT="/users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/PCA_ADMIX"
 
-SUFFIX="RSBS_poly"
+SUFFIX="all_RS"
 
 # Make a copy of the list of bam files for all the red + black spruce samples and place in your repo. You'll need this later for making figures.
 
-cp ${INPUT}/RSBS_bam.list ${OUT}
+cp ${INPUT}/allRS_bam.list ${OUT}
 
 # Set value of K and number of PCA eigenvalues (=K-1)
 # K corresponds to the number of distinct ancestry groups you want to cluster genotypes into
 
-for i in {2..6}
+for i in {2..5}
 do
-  K=i
+  K="$i"
   E=$((K-1))
 
-  pcangsd -b ${INPUT}/${SUFFIX}.beagle.gz \
+  pcangsd -b ${INPUT}/allRS_poly.beagle.gz \
         -o ${OUT}/${SUFFIX}_K${K} \
         -e $E \
         --admix \
