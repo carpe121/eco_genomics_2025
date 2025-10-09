@@ -28,6 +28,23 @@ names(pops) = c("Ind", "Pop", "Row", "Col")
 ord<-order(pops[,2])
 ```
 
+# Examine covariance matrix
+```{r}
+kval <- 2
+
+cov <- as.matrix(read.table(paste0("/gpfs1/home/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/PCA_ADMIX/all_RS_K", kval, ".cov")))
+
+pca <- eigen(cov)
+
+var <- round(pca$value/sum(pca$values),3)
+
+var[1:3]
+
+barplot(var, xlab="Eigenvalues of the PCA",
+        ylab="Proportion of variance explained")
+
+```
+
 # Read in ADMIX data
 ```{r}
 
@@ -48,3 +65,20 @@ text(tapply(1:nrow(pops),pops[ord,2],mean),-0.05,unique(pops[ord,2]),xpd=T,cex=0
 abline(v=cumsum(sapply(unique(pops[ord,2]),function(x){sum(pops[ord,2]==x)})),col=1,lwd=1.2)
 }
 ```
+```{r}
+kval <- 2
+
+cov <- as.matrix(read.table(paste0("/gpfs1/home/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresults/ANGSD/PCA_ADMIX/all_RS_K", kval, ".cov")))
+
+pca <- eigen(cov)
+
+var <- round(pca$value/sum(pca$values),3)
+
+var[1:3]
+
+barplot(var, xlab="Eigenvalues of the PCA",
+        ylab="Proportion of variance explained")
+
+```
+
+
