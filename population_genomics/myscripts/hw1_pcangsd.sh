@@ -21,20 +21,15 @@ OUT="/users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/myresult
 
 SUFFIX="all_RS"
 
-# Make a copy of the list of bam files for all the red + black spruce samples and place in your repo. You'll need this later for making figures.
-
-cp ${INPUT}/allRS_bam.list ${OUT}
-
-# Set value of K and number of PCA eigenvalues (=K-1)
-# K corresponds to the number of distinct ancestry groups you want to cluster genotypes into
+cp ${INPUT}/RSBS_bam.list ${OUT}
 
 for i in {2..5}
 do
   K="$i"
   E=$((K-1))
 
-  pcangsd -b ${INPUT}/allRS_poly.beagle.gz \
-        -o ${OUT}/${SUFFIX}_K${K} \
+  pcangsd -b ${INPUT}/RSBS_poly.beagle.gz \
+        -o ${OUT}/${SUFFIX}_K${K}_hw \
         -e $E \
         --admix \
         --admix-K $K \
