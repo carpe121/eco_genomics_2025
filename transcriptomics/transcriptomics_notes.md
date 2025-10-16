@@ -13,3 +13,13 @@ Finished work on Salmon. Extracted numeric mapping rate from each log file and s
 
 Began work on DESeq2. Created Rmd `DESeq2_tonsa_multigen.Rmd` to process DESeq2 data. Examined different bins of data using histograms. Counted number of sequenced reads. Patched DESeq2 Rmd to match column names to conds. 
 
+
+## October 16
+Continued work on DESeq2 Rmd file. Plotted PCA, sample tree, and several heatmaps to characterize data. Ran another iteration of DESeq to examine pairwise contrasts between eight different experimental groups.
+
+"What is happening in the first generation moved 22 -> 18C? What transcription is changing?"
+
+To answer this question, we examined several different genes with highly differentiated expression across treatment groups.
+
+
+
