@@ -21,5 +21,6 @@ Continued work on DESeq2 Rmd file. Plotted PCA, sample tree, and several heatmap
 
 To answer this question, we examined several different genes with highly differentiated expression across treatment groups.
 
-
+## October 21
+Continued work on DESeq2 Rmd file. Constructed heatmaps, volcano plots, and Euler plots (using `library(eulerr)`). Euler plots required counting the number of unique genes and identifying intersection of various generations, then subtracting genes overlapping between the first three generations. G4 could not be used because overlaps in differential-expressed genes between just two genes would be difficult to portray.
 
