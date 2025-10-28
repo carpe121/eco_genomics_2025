@@ -31,3 +31,7 @@ Continued work on DESeq2 Rmd file. Constructed heatmaps, volcano plots, and Eule
 ## October 23
 
 Started new R Markdown file called `enrich.Rmd` to look at G.O. terms within *P. tonsa* dataset. G.O. analysis adjusted for p-values using non-parametric terms, then identified terms that were significantly enriched. Data was plotted into *GO Enrichment for DEGs* (just looked at Gen2).
+
+## October 28
+
+Last module of the transcriptomics unit. Started with WGCNA in a new Rmd file, `DESeq2toWGCNA.Rmd`. DESeq2 data was imported, alongside the counts matrix and the trait data. A set of soft-thresholding power was chosen. Although 22 was the most ideal fit for the data, I chose 16 because we all chose different powers as a class to see how the power affected data sorting. A power of 16 led to 18 modules, and the more ideal number of 22 also chose 18 modules. Plotted results into ReviGo to identify areas of GO enrichment.
