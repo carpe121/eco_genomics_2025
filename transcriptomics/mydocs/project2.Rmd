@@ -1,0 +1,269 @@
+---
+title: "Project 2"
+author: "Madeline Carpenter"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir="~/projects/eco_genomics_2025/transcriptomics/mydata")
+```
+
+# Startup
+## Import libraries
+```{r message=FALSE}
+library(DESeq2)
+library(tidyverse)
+library(tibble)
+library(topGO)
+library(GO.db)
+library(ggplot2)
+library(scales) 
+library(ggpubr)
+library(vsn)  
+library("pheatmap")
+library("vsn")
+library(eulerr)
+```
+
+## Import data
+```{r}
+# Import the counts matrix
+countsTable <- read.table("/gpfs1/home/m/c/mcarpen3/projects/eco_genomics_2025/transcriptomics/mydata/counts_matrix.txt", header=TRUE, row.names=1)
+
+countsTableRound <- round(countsTable)
+colnames(countsTableRound) <- substr(colnames(countsTableRound), start=1, stop=4)
+head(countsTableRound, n=10)
+
+# Import sample description
+conds <- read.delim("/gpfs1/cl/ecogen/pbio6800/Transcriptomics/transcripts_quant/metadata.txt", header=TRUE, stringsAsFactors = TRUE, row.names=1)
+head(conds)
+
+# Import GO terms file
+tonsa_go <- read.delim("Genes_GO_terms_output.tsv", header = TRUE) %>%
+  slice(-c(1,2)) %>%  # remove header rows if present
+  na.omit()  # remove missing GO annotations
+```
+
+# DESeq2
+```{r}
+# Create a DESeq object
+pre_dds <- DESeqDataSetFromMatrix(countData = countsTableRound, colData=conds, design= ~ generation + line)
+
+# Filter out genes with too few reads (counts < 15 in more than 75% of samples)
+pre_dds <- pre_dds[rowSums(counts(pre_dds) >= 15) >= 18,]
+
+```
+
+```{r}
+# Run the DESeq model to test for differential gene expression
+dds <- DESeq(pre_dds)
+
+# List the results
+resultsNames(dds)
+
+# Make groups to test specific contrasts
+dds$line <- relevel(dds$line, ref="control")
+dds$generation <- relevel(dds$generation, ref="G1")
+dds$group <- factor(paste0(dds$line, dds$generation))
+design(dds) <- ~ group
+dds <- DESeq(dds)
+
+resultsNames(dds)
+```
+
+```{r}
+# Identify contrasts in control vs. treatment for each generation
+resG1_CvT <- results(dds, contrast=c("group","controlG1","treatmentG1"), alpha = 0.05)
+resG1_CvT <- resG1_CvT[order(resG1_CvT$padj),] #sort
+resG1_CvT <- resG1_CvT[!is.na(resG1_CvT$padj),]
+degs_G1_CvTM <- row.names(resG1_CvT[resG1_CvT$padj < 0.05,])
+resG1_CvT$geneID <- row.names(resG1_CvT)
+
+#Gen2
+resG2_CvT <- results(dds, contrast=c("group","controlG2","treatmentG2"), alpha = 0.05)
+resG2_CvT <- resG2_CvT[order(resG2_CvT$padj),]
+resG2_CvT <- resG2_CvT[!is.na(resG2_CvT$padj),]
+degs_G2_CvTM <- row.names(resG2_CvT[resG2_CvT$padj < 0.05,])
+resG2_CvT$geneID <- row.names(resG2_CvT)
+
+#Gen3
+resG3_CvT <- results(dds, contrast=c("group","controlG3","treatmentG3"), alpha = 0.05)
+resG3_CvT <- resG3_CvT[order(resG3_CvT$padj),] #sort
+resG3_CvT <- resG3_CvT[!is.na(resG3_CvT$padj),]
+degs_G3_CvTM <- row.names(resG3_CvT[resG3_CvT$padj < 0.05,])
+resG3_CvT$geneID <- row.names(resG3_CvT)
+
+#Gen4
+resG4_CvT <- results(dds, contrast=c("group","controlG4","treatmentG4"), alpha = 0.05)
+resG4_CvT <- resG4_CvT[order(resG4_CvT$padj),]
+resG4_CvT <- resG4_CvT[!is.na(resG4_CvT$padj),]
+degs_G4_CvTM <- row.names(resG4_CvT[resG4_CvT$padj < 0.05,])
+resG4_CvT$geneID <- row.names(resG4_CvT)
+```
+
+## Venn or Euler plot
+```{r}
+# Total
+length(degs_G1_CvTM)  # 573
+length(degs_G2_CvTM)  # 4568
+length(degs_G3_CvTM)  # 1234
+length(degs_G4_CvTM)  # 40
+
+# Intersections
+length(intersect(degs_G1_CvTM,degs_G2_CvTM))  # 227
+length(intersect(degs_G1_CvTM,degs_G3_CvTM)) # 71
+length(intersect(degs_G1_CvTM,degs_G4_CvTM)) # 2
+
+length(intersect(degs_G2_CvTM,degs_G3_CvTM))  # 294
+length(intersect(degs_G2_CvTM,degs_G4_CvTM))  # 13
+
+length(intersect(degs_G3_CvTM,degs_G4_CvTM)) # 12
+
+# To calc number shared in all three contrasts
+int12 <- intersect(degs_G1_CvTM,degs_G2_CvTM)
+length(intersect(degs_G3_CvTM,int12)) # 13
+```
+## Plot Euler Plot
+```{r}
+fit1 <- euler(c("G1" = 288, "G2" = 4060, "G3" = 882, "G1&G2" = 214, "G1&G3" = 58, "G2&G3" = 281, "G1&G2&G3" = 13))
+
+
+plot(fit1,  lty = 1:3, quantities = TRUE)
+
+```
+
+# Gene Ontology
+## Organize Datasets
+```{r}
+defex <- as.data.frame(intersect(degs_G3_CvTM, int12))
+colnames(defex) <- c("geneID")
+
+# ID DEGs with GO annotations
+intGO <- defex[defex$geneID %in% tonsa_go$geneID,]
+
+# already sorted for pval <0.05, no need to do it again
+
+# Merge with GO annotations
+intstat <- merge(defex, tonsa_go, by="geneID")
+```
+
+## Call TopGO
+```{r}
+# Create gene2GO list for TopGO 
+gene2GO <- tonsa_go %>%
+  filter(!is.na(GO) & GO != "") %>%
+  group_by(geneID) %>%
+  summarise(GO = list(unique(GO)), .groups = "drop") %>%
+  with(setNames(GO, geneID))
+
+# Split semicolon-separated GO terms
+gene2GO <- lapply(gene2GO, function(x) unlist(strsplit(x, ";")))
+
+# Create geneList for TopGO: 1 = DEG, 0 = not DEG
+all_genes <- names(gene2GO)
+geneList <- setNames(as.integer(all_genes %in% intstat$geneID), all_genes)
+
+#Build TopGO pipeline 
+GOdata <- new("topGOdata",
+              description = "All Gens DEGs GO enrichment",
+              ontology = "BP",
+              allGenes = geneList,
+              geneSel = function(x) x == 1,
+              nodeSize = 5,
+              annot = annFUN.gene2GO,
+              gene2GO = gene2GO)
+
+#test for enrichment 
+result <- runTest(GOdata, algorithm = "parentChild", statistic = "fisher")
+
+# Convert results to table
+res_table <- GenTable(GOdata, classicFisher = result,
+                      topNodes = length(usedGO(GOdata))) %>%
+  mutate(classicFisher = as.numeric(classicFisher),
+         Annotated = as.numeric(Annotated),
+         Significant = as.numeric(Significant))
+```
+
+## Plot results
+```{r}
+# Keep GO terms with enough but not too many genes
+filtered_GO_results <- res_table %>%
+  filter(Annotated >= 5 & Annotated < 500) %>%  # adjust as needed
+  group_by(Term) %>%
+  slice_min(classicFisher, n = 1) %>%  # keep only the most significant per Term
+  ungroup() %>%
+  arrange(classicFisher)
+
+
+TopGO_plot <- function(df, title) {
+  df %>%
+    slice_head(n = 30) %>%
+    ggplot(aes(x = -log10(classicFisher),
+               y = reorder(Term, -log10(classicFisher)),
+               size = Significant,
+               color = -log10(classicFisher))) +
+    geom_point(alpha = 0.8) +
+    scale_color_gradientn(
+      colors = c("pink", "orchid", "purple", "purple4"),
+      name = "-log10(p-value)"
+    ) +
+    scale_size_continuous(name = "# Significant Genes") +
+    xlab("-log10-classicFisher") +
+    ylab("Biological Function") +
+    ggtitle(title) +
+    theme_minimal() +
+    theme(plot.margin = margin(10, 100, 10, 10),
+          axis.text.y = element_text(size = 10, hjust = 1)) +
+    coord_cartesian(clip = "off")
+}
+
+# Generate plot
+topGO_plot <- TopGO_plot(filtered_GO_results, "GO Enrichment for DEGs Across Generations")
+topGO_plot
+```
+
+# Construct heatmap
+```{r}
+#visualizes how significant genes change across generations
+
+defg1 <- resG1_CvT[resG1_CvT$geneID %in% defex$geneID,]
+defg1$Gen <- "g1" 
+defgh1 <- defg1[order(defg1$geneID),]
+
+defg2 <- resG2_CvT[resG2_CvT$geneID %in% defex$geneID,]
+defg2$Gen <- "g2" 
+defgh2 <- defg2[order(defg2$geneID),]
+
+defg3 <- resG3_CvT[resG3_CvT$geneID %in% defex$geneID,]
+defg3$Gen <- "g3" 
+defgh3 <- defg3[order(defg3$geneID),]
+
+defg4 <- resG4_CvT[resG4_CvT$geneID %in% defex$geneID,]
+defg4$Gen <- "g4" 
+defgh4 <- defg4[order(defg4$geneID),]
+
+
+defex2 <- intersect(degs_G3_CvTM, int12)
+
+defmat <- data.frame(
+  Gen1 = defg1[defex2, "log2FoldChange"],
+  Gen2 = defg2[defex2, "log2FoldChange"],
+  Gen3 = defg3[defex2, "log2FoldChange"],
+  Gen4 = defg4[defex2, "log2FoldChange"]
+)
+
+rownames(defmat) <- rownames(defgh1)
+```
+
+```{r}
+pheatmap(defmat,
+         scale = "row",             # scales each gene’s LFCs across generations
+         color = colorRampPalette(c("blue", "white", "red"))(50),
+         clustering_distance_rows = "euclidean",
+         clustering_distance_cols = "euclidean",
+         clustering_method = "complete",
+         show_rownames = TRUE,
+         main = "LFC (Treatment vs Control) of Significant Genes Across Generations")
+```
