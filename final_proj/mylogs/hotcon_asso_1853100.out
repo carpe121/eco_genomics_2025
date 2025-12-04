@@ -1,0 +1,5 @@
+	-> angsd version: 0.935 (htslib: 1.19.1) build(Dec 18 2024 17:12:57)
+	-> angsd -doAsso 2 -GL 1 -fai /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa -ybin /users/m/c/mcarpen3/projects/eco_genomics_2025/projects/eco_genomics_2025/final_proj/assoc.ybin   
+	-> No '-out' argument given, output files will be called 'angsdput'
+	-> Unknown input type
+asso.sh: line 23: -bam: command not found

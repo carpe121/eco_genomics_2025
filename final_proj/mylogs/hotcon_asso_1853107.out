@@ -1,0 +1,3 @@
+	-> angsd version: 0.935 (htslib: 1.19.1) build(Dec 18 2024 17:12:57)
+	-> angsd -bam /users/m/c/mcarpen3/projects/eco_genomics_2025/projects/eco_genomics_2025/final_proj/final_bam.list -out /gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso_2 -doAsso 2 -GL 1 -fai /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa -doMajorMinor 1 -SNP_pval 1e-6 -doMaf 1 -ybin /users/m/c/mcarpen3/projects/eco_genomics_2025/projects/eco_genomics_2025/final_proj/assoc.ybin 
+[getFilenames]	-> Problems opening file: /users/m/c/mcarpen3/projects/eco_genomics_2025/projects/eco_genomics_2025/final_proj/final_bam.list

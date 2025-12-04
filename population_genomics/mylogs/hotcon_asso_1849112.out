@@ -1,0 +1,6 @@
+	-> angsd version: 0.935 (htslib: 1.19.1) build(Dec 18 2024 17:12:57)
+	-> angsd -bam /users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/mydata/ANGSD/hotcon_bam.list -doSAF 1 -out /gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso -anc /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa -GL 1 -setMinDepthInd 1 -setMaxDepthInd 40 -setMinDepth 10 -skipTriallelic 1 -remove_bads 1 -minMapQ 20 -minQ 20 
+	-> Inputtype is BAM/CRAM
+[multiReader] 113 samples in 113 input files
+	-> Reading fasta: /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa
+13 argument 	-setMaxDepthInd is unknown will exit

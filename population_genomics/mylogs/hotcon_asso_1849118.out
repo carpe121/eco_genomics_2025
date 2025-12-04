@@ -1,0 +1,1495 @@
+	-> angsd version: 0.935 (htslib: 1.19.1) build(Dec 18 2024 17:12:57)
+	-> angsd -b /users/m/c/mcarpen3/projects/eco_genomics_2025/population_genomics/mydata/ANGSD/hotcon_bam.list -ref /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa -anc /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa -out /gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso -remove_bads 1 -C 50 -baq 1 -minMapQ 20 -minQ 20 -GL 1 -doSaf 1 -doCounts 1 -minInd 4 -setMinDepthInd 1 -setMaxDepthInd 40 -setMinDepth 10 -skipTriallelic 1 -doMajorMinor 4 
+	-> Inputtype is BAM/CRAM
+[multiReader] 95 samples in 95 input files
+	-> Reading fasta: /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa
+	-> Reading fasta: /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa
+	-> Parsing 95 number of samples 
+
+	-> Allocated ~ 10 million nodes to the nodepool, this is not an estimate of the memory usage
+	-> Printing at chr: JASDQU010007739.1 pos:811 chunknumber 100 contains 1357 sites
+
+	-> Allocated ~ 20 million nodes to the nodepool, this is not an estimate of the memory usage
+
+	-> Allocated ~ 30 million nodes to the nodepool, this is not an estimate of the memory usage
+	-> Printing at chr: JASDQU010010035.1 pos:211275 chunknumber 200 contains 10003 sites
+	-> Printing at chr: JASDQU010010097.1 pos:3349 chunknumber 300 contains 30695 sites
+
+	-> Allocated ~ 40 million nodes to the nodepool, this is not an estimate of the memory usage
+	-> Printing at chr: JASDQU010010190.1 pos:218900 chunknumber 400 contains 1185 sites
+PROBS at: JASDQU010010227.1	68595
+	-> Printing at chr: JASDQU010010245.1 pos:444637 chunknumber 500 contains 347 sites
+	-> Printing at chr: JASDQU010010321.1 pos:192917 chunknumber 600 contains 789 sites
+	-> Printing at chr: JASDQU010010425.1 pos:821 chunknumber 700 contains 22931 sites
+	-> Printing at chr: JASDQU010010538.1 pos:50349 chunknumber 800 contains 251 sites
+	-> Printing at chr: JASDQU010010601.1 pos:62867 chunknumber 900 contains 4039 sites
+	-> Printing at chr: JASDQU010010680.1 pos:429505 chunknumber 1000 contains 415 sites
+	-> Printing at chr: JASDQU010010757.1 pos:309584 chunknumber 1100 contains 2085 sites
+PROBS at: JASDQU010010770.1	196538
+PROBS at: JASDQU010010843.1	242586
+	-> Printing at chr: JASDQU010010867.1 pos:184371 chunknumber 1200 contains 1418 sites
+	-> Printing at chr: JASDQU010010941.1 pos:1893 chunknumber 1300 contains 15598 sites
+	-> Printing at chr: JASDQU010011035.1 pos:2931 chunknumber 1400 contains 10016 sites
+	-> Printing at chr: JASDQU010011116.1 pos:224957 chunknumber 1500 contains 170 sites
+	-> Printing at chr: JASDQU010011219.1 pos:128373 chunknumber 1600 contains 3615 sites
+	-> Printing at chr: JASDQU010011299.1 pos:132819 chunknumber 1700 contains 479 sites
+	-> Printing at chr: JASDQU010011396.1 pos:522045 chunknumber 1800 contains 260 sites
+	-> Printing at chr: JASDQU010011450.1 pos:176612 chunknumber 1900 contains 1823 sites
+	-> Printing at chr: JASDQU010011550.1 pos:248320 chunknumber 2000 contains 1442 sites
+	-> Printing at chr: JASDQU010011639.1 pos:162724 chunknumber 2100 contains 75 sites
+	-> Printing at chr: JASDQU010011741.1 pos:308312 chunknumber 2200 contains 418 sites
+	-> Printing at chr: JASDQU010011807.1 pos:7937 chunknumber 2300 contains 7685 sites
+	-> Printing at chr: JASDQU010011908.1 pos:57583 chunknumber 2400 contains 6952 sites
+	-> Printing at chr: JASDQU010012019.1 pos:106305 chunknumber 2500 contains 11080 sites
+	-> Printing at chr: JASDQU010012125.1 pos:11 chunknumber 2600 contains 35585 sites
+	-> Printing at chr: JASDQU010012228.1 pos:95852 chunknumber 2700 contains 4461 sites
+	-> Printing at chr: JASDQU010012301.1 pos:63066 chunknumber 2800 contains 1766 sites
+	-> Printing at chr: JASDQU010012368.1 pos:179930 chunknumber 2900 contains 595 sites
+	-> Printing at chr: JASDQU010012407.1 pos:282610 chunknumber 3000 contains 951 sites
+	-> Printing at chr: JASDQU010012464.1 pos:304304 chunknumber 3100 contains 1743 sites
+	-> Printing at chr: JASDQU010012536.1 pos:122095 chunknumber 3200 contains 244 sites
+	-> Printing at chr: JASDQU010012658.1 pos:182897 chunknumber 3300 contains 292 sites
+	-> Printing at chr: JASDQU010012723.1 pos:6604 chunknumber 3400 contains 27225 sites
+	-> Printing at chr: JASDQU010012834.1 pos:205138 chunknumber 3500 contains 2139 sites
+	-> Printing at chr: JASDQU010012934.1 pos:268240 chunknumber 3600 contains 295 sites
+PROBS at: JASDQU010013028.1	141393
+	-> Printing at chr: JASDQU010013033.1 pos:3446 chunknumber 3700 contains 68359 sites
+	-> Printing at chr: JASDQU010013147.1 pos:120965 chunknumber 3800 contains 6741 sites
+	-> Printing at chr: JASDQU010013232.1 pos:270 chunknumber 3900 contains 20064 sites
+	-> Printing at chr: JASDQU010013282.1 pos:232107 chunknumber 4000 contains 267 sites
+	-> Printing at chr: JASDQU010013357.1 pos:145 chunknumber 4100 contains 41644 sites
+	-> Printing at chr: JASDQU010013441.1 pos:15118 chunknumber 4200 contains 9093 sites
+	-> Printing at chr: JASDQU010013536.1 pos:199409 chunknumber 4300 contains 88 sites
+	-> Printing at chr: JASDQU010013629.1 pos:3808 chunknumber 4400 contains 20842 sites
+	-> Printing at chr: JASDQU010013726.1 pos:133681 chunknumber 4500 contains 2033 sites
+	-> Printing at chr: JASDQU010013806.1 pos:74478 chunknumber 4600 contains 897 sites
+	-> Printing at chr: JASDQU010013895.1 pos:136820 chunknumber 4700 contains 1392 sites
+	-> Printing at chr: JASDQU010013978.1 pos:241624 chunknumber 4800 contains 1617 sites
+	-> Printing at chr: JASDQU010014075.1 pos:73200 chunknumber 4900 contains 71078 sites
+PROBS at: JASDQU010014110.1	17834
+	-> Printing at chr: JASDQU010014202.1 pos:209519 chunknumber 5000 contains 3723 sites
+	-> Printing at chr: JASDQU010014289.1 pos:167399 chunknumber 5100 contains 4277 sites
+	-> Printing at chr: JASDQU010014394.1 pos:5197 chunknumber 5200 contains 19320 sites
+	-> Printing at chr: JASDQU010014488.1 pos:193424 chunknumber 5300 contains 32343 sites
+PROBS at: JASDQU010014557.1	49275
+	-> Printing at chr: JASDQU010014584.1 pos:10 chunknumber 5400 contains 6586 sites
+PROBS at: JASDQU010014612.1	5381
+	-> Printing at chr: JASDQU010014684.1 pos:416330 chunknumber 5500 contains 239 sites
+	-> Printing at chr: JASDQU010014805.1 pos:243651 chunknumber 5600 contains 309 sites
+	-> Printing at chr: JASDQU010014879.1 pos:79913 chunknumber 5700 contains 278 sites
+	-> Printing at chr: JASDQU010014962.1 pos:83280 chunknumber 5800 contains 21434 sites
+	-> Printing at chr: JASDQU010019915.1 pos:21784 chunknumber 5900 contains 274 sites
+	-> Printing at chr: JASDQU010025276.1 pos:20445 chunknumber 6000 contains 466 sites
+	-> Printing at chr: JASDQU010025650.1 pos:7461 chunknumber 6100 contains 1356 sites
+	-> Printing at chr: JASDQU010026194.1 pos:9 chunknumber 6200 contains 11556 sites
+	-> Printing at chr: JASDQU010026439.1 pos:62237 chunknumber 6300 contains 1938 sites
+	-> Printing at chr: JASDQU010026905.1 pos:43392 chunknumber 6400 contains 392 sites
+	-> Printing at chr: JASDQU010027252.1 pos:21813 chunknumber 6500 contains 109 sites
+	-> Printing at chr: JASDQU010027663.1 pos:6903 chunknumber 6600 contains 15365 sites
+	-> Printing at chr: JASDQU010027987.1 pos:28824 chunknumber 6700 contains 233 sites
+	-> Printing at chr: JASDQU010028296.1 pos:13670 chunknumber 6800 contains 1129 sites
+	-> Printing at chr: JASDQU010028599.1 pos:42743 chunknumber 6900 contains 797 sites
+	-> Printing at chr: JASDQU010028981.1 pos:30236 chunknumber 7000 contains 880 sites
+	-> Printing at chr: JASDQU010029293.1 pos:40330 chunknumber 7100 contains 859 sites
+	-> Printing at chr: JASDQU010029635.1 pos:31921 chunknumber 7200 contains 278 sites
+	-> Printing at chr: JASDQU010029932.1 pos:59033 chunknumber 7300 contains 871 sites
+	-> Printing at chr: JASDQU010030377.1 pos:2969 chunknumber 7400 contains 1981 sites
+	-> Printing at chr: JASDQU010030936.1 pos:1629 chunknumber 7500 contains 5387 sites
+	-> Printing at chr: JASDQU010031393.1 pos:21279 chunknumber 7600 contains 250 sites
+No data for chromoId=1583 chromoname=JASDQU010031407.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010031787.1 pos:35926 chunknumber 7700 contains 1848 sites
+	-> Printing at chr: JASDQU010032342.1 pos:20270 chunknumber 7800 contains 197 sites
+	-> Printing at chr: JASDQU010032909.1 pos:14198 chunknumber 7900 contains 220 sites
+	-> Printing at chr: JASDQU010033384.1 pos:79629 chunknumber 8000 contains 140 sites
+	-> Printing at chr: JASDQU010034082.1 pos:39 chunknumber 8100 contains 5862 sites
+	-> Printing at chr: JASDQU010034562.1 pos:32667 chunknumber 8200 contains 859 sites
+	-> Printing at chr: JASDQU010056223.1 pos:999 chunknumber 8300 contains 12 sites
+	-> Printing at chr: JASDQU010068665.1 pos:3313 chunknumber 8400 contains 1701 sites
+	-> Printing at chr: JASDQU010091512.1 pos:1 chunknumber 8500 contains 337 sites
+	-> Printing at chr: JASDQU010095155.1 pos:10494 chunknumber 8600 contains 1290 sites
+	-> Printing at chr: JASDQU010095671.1 pos:8183 chunknumber 8700 contains 654 sites
+	-> Printing at chr: JASDQU010096323.1 pos:2985 chunknumber 8800 contains 5701 sites
+	-> Printing at chr: JASDQU010096911.1 pos:20539 chunknumber 8900 contains 499 sites
+	-> Printing at chr: JASDQU010097513.1 pos:15414 chunknumber 9000 contains 75 sites
+	-> Printing at chr: JASDQU010097949.1 pos:21159 chunknumber 9100 contains 726 sites
+	-> Printing at chr: JASDQU010098651.1 pos:50399 chunknumber 9200 contains 317 sites
+	-> Printing at chr: JASDQU010098999.1 pos:11503 chunknumber 9300 contains 1352 sites
+PROBS at: JASDQU010099468.1	5905
+	-> Printing at chr: JASDQU010099577.1 pos:5093 chunknumber 9400 contains 2913 sites
+	-> Printing at chr: JASDQU010099720.1 pos:137642 chunknumber 9500 contains 256 sites
+	-> Printing at chr: JASDQU010099741.1 pos:442225 chunknumber 9600 contains 300 sites
+	-> Printing at chr: JASDQU010099761.1 pos:60794 chunknumber 9700 contains 53715 sites
+PROBS at: JASDQU010099773.1	379316
+PROBS at: JASDQU010099777.1	79947
+	-> Printing at chr: JASDQU010099780.1 pos:461 chunknumber 9800 contains 25181 sites
+	-> Printing at chr: JASDQU010099803.1 pos:326181 chunknumber 9900 contains 1744 sites
+	-> Printing at chr: JASDQU010099835.1 pos:389197 chunknumber 10000 contains 617 sites
+	-> Printing at chr: JASDQU010099854.1 pos:186213 chunknumber 10100 contains 1328 sites
+	-> Printing at chr: JASDQU010099874.1 pos:1007030 chunknumber 10200 contains 4389 sites
+PROBS at: JASDQU010099891.1	321066
+	-> Printing at chr: JASDQU010099899.1 pos:859776 chunknumber 10300 contains 140 sites
+	-> Printing at chr: JASDQU010099931.1 pos:465012 chunknumber 10400 contains 364 sites
+PROBS at: JASDQU010099931.1	908481
+	-> Printing at chr: JASDQU010099957.1 pos:745990 chunknumber 10500 contains 237 sites
+PROBS at: JASDQU010099958.1	59127
+	-> Printing at chr: JASDQU010099979.1 pos:292861 chunknumber 10600 contains 5796 sites
+	-> Printing at chr: JASDQU010100008.1 pos:351030 chunknumber 10700 contains 4732 sites
+	-> Printing at chr: JASDQU010100041.1 pos:209618 chunknumber 10800 contains 27036 sites
+PROBS at: JASDQU010100042.1	340822
+	-> Printing at chr: JASDQU010100060.1 pos:684399 chunknumber 10900 contains 1160 sites
+	-> Printing at chr: JASDQU010100091.1 pos:654596 chunknumber 11000 contains 12945 sites
+	-> Printing at chr: JASDQU010100117.1 pos:112451 chunknumber 11100 contains 36008 sites
+PROBS at: JASDQU010100141.1	1069537
+	-> Printing at chr: JASDQU010100143.1 pos:23697 chunknumber 11200 contains 2086 sites
+	-> Printing at chr: JASDQU010100170.1 pos:994105 chunknumber 11300 contains 123 sites
+PROBS at: JASDQU010100179.1	8768
+	-> Printing at chr: JASDQU010100199.1 pos:477418 chunknumber 11400 contains 1451 sites
+	-> Printing at chr: JASDQU010100242.1 pos:502838 chunknumber 11500 contains 158 sites
+PROBS at: JASDQU010100247.1	9119
+	-> Printing at chr: JASDQU010100264.1 pos:710028 chunknumber 11600 contains 455 sites
+PROBS at: JASDQU010100282.1	69995
+	-> Printing at chr: JASDQU010100285.1 pos:294282 chunknumber 11700 contains 517 sites
+	-> Printing at chr: JASDQU010100318.1 pos:433824 chunknumber 11800 contains 393 sites
+	-> Printing at chr: JASDQU010100342.1 pos:140 chunknumber 11900 contains 29528 sites
+	-> Printing at chr: JASDQU010100371.1 pos:402334 chunknumber 12000 contains 4266 sites
+	-> Printing at chr: JASDQU010100397.1 pos:649228 chunknumber 12100 contains 760 sites
+	-> Printing at chr: JASDQU010100440.1 pos:114497 chunknumber 12200 contains 36255 sites
+	-> Printing at chr: JASDQU010100467.1 pos:464199 chunknumber 12300 contains 2677 sites
+	-> Printing at chr: JASDQU010100492.1 pos:63435 chunknumber 12400 contains 702 sites
+	-> Printing at chr: JASDQU010100519.1 pos:992902 chunknumber 12500 contains 631 sites
+	-> Printing at chr: JASDQU010100549.1 pos:141582 chunknumber 12600 contains 39047 sites
+	-> Printing at chr: JASDQU010100574.1 pos:400669 chunknumber 12700 contains 17638 sites
+	-> Printing at chr: JASDQU010100605.1 pos:563356 chunknumber 12800 contains 61 sites
+	-> Printing at chr: JASDQU010100646.1 pos:370 chunknumber 12900 contains 33820 sites
+	-> Printing at chr: JASDQU010100678.1 pos:361884 chunknumber 13000 contains 337 sites
+	-> Printing at chr: JASDQU010100714.1 pos:930656 chunknumber 13100 contains 21901 sites
+PROBS at: JASDQU010100722.1	49343
+	-> Printing at chr: JASDQU010100746.1 pos:515875 chunknumber 13200 contains 265 sites
+	-> Printing at chr: JASDQU010100788.1 pos:612107 chunknumber 13300 contains 817 sites
+	-> Printing at chr: JASDQU010100829.1 pos:345084 chunknumber 13400 contains 273 sites
+	-> Printing at chr: JASDQU010100862.1 pos:406917 chunknumber 13500 contains 4726 sites
+	-> Printing at chr: JASDQU010100888.1 pos:461440 chunknumber 13600 contains 2165 sites
+PROBS at: JASDQU010100903.1	395473
+	-> Printing at chr: JASDQU010100920.1 pos:3776 chunknumber 13700 contains 34126 sites
+	-> Printing at chr: JASDQU010100955.1 pos:2713 chunknumber 13800 contains 9284 sites
+	-> Printing at chr: JASDQU010100982.1 pos:397951 chunknumber 13900 contains 524 sites
+	-> Printing at chr: JASDQU010101028.1 pos:1 chunknumber 14000 contains 41191 sites
+	-> Printing at chr: JASDQU010101055.1 pos:886116 chunknumber 14100 contains 172 sites
+PROBS at: JASDQU010101075.1	282606
+	-> Printing at chr: JASDQU010101094.1 pos:366936 chunknumber 14200 contains 972 sites
+	-> Printing at chr: JASDQU010101126.1 pos:810438 chunknumber 14300 contains 686 sites
+	-> Printing at chr: JASDQU010101175.1 pos:97931 chunknumber 14400 contains 40034 sites
+	-> Printing at chr: JASDQU010101220.1 pos:1371 chunknumber 14500 contains 31792 sites
+	-> Printing at chr: JASDQU010101249.1 pos:213699 chunknumber 14600 contains 80929 sites
+	-> Printing at chr: JASDQU010101274.1 pos:606840 chunknumber 14700 contains 355 sites
+	-> Printing at chr: JASDQU010101323.1 pos:174465 chunknumber 14800 contains 27604 sites
+	-> Printing at chr: JASDQU010101361.1 pos:508745 chunknumber 14900 contains 150 sites
+	-> Printing at chr: JASDQU010101384.1 pos:97651 chunknumber 15000 contains 1136 sites
+	-> Printing at chr: JASDQU010101424.1 pos:11166 chunknumber 15100 contains 1207 sites
+	-> Printing at chr: JASDQU010101458.1 pos:323698 chunknumber 15200 contains 1595 sites
+PROBS at: JASDQU010101490.1	303593
+	-> Printing at chr: JASDQU010101506.1 pos:860911 chunknumber 15300 contains 23335 sites
+PROBS at: JASDQU010101534.1	205874
+	-> Printing at chr: JASDQU010101537.1 pos:30906 chunknumber 15400 contains 24661 sites
+	-> Printing at chr: JASDQU010101581.1 pos:218945 chunknumber 15500 contains 272 sites
+	-> Printing at chr: JASDQU010101622.1 pos:181294 chunknumber 15600 contains 407 sites
+	-> Printing at chr: JASDQU010101687.1 pos:254524 chunknumber 15700 contains 899 sites
+PROBS at: JASDQU010101695.1	246151
+	-> Printing at chr: JASDQU010101720.1 pos:292329 chunknumber 15800 contains 511 sites
+	-> Printing at chr: JASDQU010101759.1 pos:301 chunknumber 15900 contains 68005 sites
+	-> Printing at chr: JASDQU010101792.1 pos:476028 chunknumber 16000 contains 320 sites
+	-> Printing at chr: JASDQU010101829.1 pos:843566 chunknumber 16100 contains 24582 sites
+	-> Printing at chr: JASDQU010101864.1 pos:536554 chunknumber 16200 contains 1158 sites
+	-> Printing at chr: JASDQU010101893.1 pos:358382 chunknumber 16300 contains 430 sites
+	-> Printing at chr: JASDQU010101952.1 pos:73887 chunknumber 16400 contains 23226 sites
+PROBS at: JASDQU010101998.1	339537
+	-> Printing at chr: JASDQU010102007.1 pos:5282 chunknumber 16500 contains 26806 sites
+	-> Printing at chr: JASDQU010102043.1 pos:2454 chunknumber 16600 contains 17350 sites
+	-> Printing at chr: JASDQU010102083.1 pos:362302 chunknumber 16700 contains 281 sites
+	-> Printing at chr: JASDQU010102125.1 pos:147889 chunknumber 16800 contains 2350 sites
+	-> Printing at chr: JASDQU010102163.1 pos:451045 chunknumber 16900 contains 301 sites
+	-> Printing at chr: JASDQU010102196.1 pos:303718 chunknumber 17000 contains 309 sites
+	-> Printing at chr: JASDQU010102234.1 pos:89174 chunknumber 17100 contains 4151 sites
+	-> Printing at chr: JASDQU010102278.1 pos:482233 chunknumber 17200 contains 2825 sites
+	-> Printing at chr: JASDQU010102310.1 pos:311053 chunknumber 17300 contains 638 sites
+	-> Printing at chr: JASDQU010102357.1 pos:1093 chunknumber 17400 contains 21277 sites
+	-> Printing at chr: JASDQU010102396.1 pos:121741 chunknumber 17500 contains 2084 sites
+	-> Printing at chr: JASDQU010102431.1 pos:1290 chunknumber 17600 contains 26751 sites
+	-> Printing at chr: JASDQU010102471.1 pos:478494 chunknumber 17700 contains 1526 sites
+	-> Printing at chr: JASDQU010102518.1 pos:199092 chunknumber 17800 contains 278 sites
+	-> Printing at chr: JASDQU010102591.1 pos:63112 chunknumber 17900 contains 58661 sites
+	-> Printing at chr: JASDQU010102660.1 pos:268366 chunknumber 18000 contains 9044 sites
+PROBS at: JASDQU010102661.1	25369
+	-> Printing at chr: JASDQU010102712.1 pos:1036241 chunknumber 18100 contains 4156 sites
+	-> Printing at chr: JASDQU010102760.1 pos:308601 chunknumber 18200 contains 330 sites
+	-> Printing at chr: JASDQU010102786.1 pos:267433 chunknumber 18300 contains 25274 sites
+	-> Printing at chr: JASDQU010102822.1 pos:407269 chunknumber 18400 contains 438 sites
+	-> Printing at chr: JASDQU010102874.1 pos:812 chunknumber 18500 contains 20575 sites
+	-> Printing at chr: JASDQU010102912.1 pos:471906 chunknumber 18600 contains 1872 sites
+PROBS at: JASDQU010102933.1	370948
+	-> Printing at chr: JASDQU010102953.1 pos:247175 chunknumber 18700 contains 274 sites
+	-> Printing at chr: JASDQU010103006.1 pos:379509 chunknumber 18800 contains 2242 sites
+	-> Printing at chr: JASDQU010103061.1 pos:149398 chunknumber 18900 contains 31849 sites
+	-> Printing at chr: JASDQU010103110.1 pos:337428 chunknumber 19000 contains 40466 sites
+	-> Printing at chr: JASDQU010103150.1 pos:342789 chunknumber 19100 contains 367 sites
+	-> Printing at chr: JASDQU010103194.1 pos:188259 chunknumber 19200 contains 1206 sites
+	-> Printing at chr: JASDQU010103230.1 pos:268138 chunknumber 19300 contains 29407 sites
+	-> Printing at chr: JASDQU010103265.1 pos:334620 chunknumber 19400 contains 1387 sites
+	-> Printing at chr: JASDQU010103313.1 pos:456838 chunknumber 19500 contains 2075 sites
+	-> Printing at chr: JASDQU010103364.1 pos:118706 chunknumber 19600 contains 7105 sites
+PROBS at: JASDQU010103381.1	31049
+	-> Printing at chr: JASDQU010103414.1 pos:26 chunknumber 19700 contains 37391 sites
+	-> Printing at chr: JASDQU010103459.1 pos:311554 chunknumber 19800 contains 149 sites
+	-> Printing at chr: JASDQU010103517.1 pos:180335 chunknumber 19900 contains 344 sites
+	-> Printing at chr: JASDQU010103582.1 pos:382230 chunknumber 20000 contains 557 sites
+	-> Printing at chr: JASDQU010103635.1 pos:174955 chunknumber 20100 contains 467 sites
+	-> Printing at chr: JASDQU010103689.1 pos:70 chunknumber 20200 contains 42715 sites
+PROBS at: JASDQU010103689.1	58744
+	-> Printing at chr: JASDQU010103756.1 pos:14 chunknumber 20300 contains 12411 sites
+	-> Printing at chr: JASDQU010103782.1 pos:136683 chunknumber 20400 contains 487 sites
+PROBS at: JASDQU010103797.1	81213
+	-> Printing at chr: JASDQU010103833.1 pos:279249 chunknumber 20500 contains 124 sites
+	-> Printing at chr: JASDQU010103876.1 pos:441238 chunknumber 20600 contains 556 sites
+	-> Printing at chr: JASDQU010103917.1 pos:399387 chunknumber 20700 contains 3381 sites
+	-> Printing at chr: JASDQU010103974.1 pos:539561 chunknumber 20800 contains 490 sites
+	-> Printing at chr: JASDQU010104018.1 pos:178858 chunknumber 20900 contains 10 sites
+	-> Printing at chr: JASDQU010104067.1 pos:3691 chunknumber 21000 contains 22087 sites
+PROBS at: JASDQU010104069.1	65135
+	-> Printing at chr: JASDQU010104102.1 pos:372015 chunknumber 21100 contains 18579 sites
+	-> Printing at chr: JASDQU010104158.1 pos:3148 chunknumber 21200 contains 19265 sites
+	-> Printing at chr: JASDQU010104229.1 pos:1043 chunknumber 21300 contains 52091 sites
+	-> Printing at chr: JASDQU010104263.1 pos:199671 chunknumber 21400 contains 319 sites
+PROBS at: JASDQU010104266.1	14880
+	-> Printing at chr: JASDQU010104345.1 pos:144529 chunknumber 21500 contains 1146 sites
+	-> Printing at chr: JASDQU010104411.1 pos:1101 chunknumber 21600 contains 28819 sites
+	-> Printing at chr: JASDQU010104468.1 pos:484555 chunknumber 21700 contains 11156 sites
+	-> Printing at chr: JASDQU010104526.1 pos:313946 chunknumber 21800 contains 801 sites
+	-> Printing at chr: JASDQU010104581.1 pos:143 chunknumber 21900 contains 4679 sites
+	-> Printing at chr: JASDQU010104627.1 pos:148973 chunknumber 22000 contains 3420 sites
+	-> Printing at chr: JASDQU010104665.1 pos:308 chunknumber 22100 contains 13429 sites
+	-> Printing at chr: JASDQU010104715.1 pos:99445 chunknumber 22200 contains 2797 sites
+	-> Printing at chr: JASDQU010104763.1 pos:209813 chunknumber 22300 contains 32251 sites
+	-> Printing at chr: JASDQU010104886.1 pos:151193 chunknumber 22400 contains 7271 sites
+	-> Printing at chr: JASDQU010104938.1 pos:397520 chunknumber 22500 contains 364 sites
+	-> Printing at chr: JASDQU010105028.1 pos:58225 chunknumber 22600 contains 465 sites
+	-> Printing at chr: JASDQU010105094.1 pos:194768 chunknumber 22700 contains 291 sites
+	-> Printing at chr: JASDQU010105205.1 pos:145877 chunknumber 22800 contains 575 sites
+	-> Printing at chr: JASDQU010105294.1 pos:8113 chunknumber 22900 contains 27297 sites
+	-> Printing at chr: JASDQU010105420.1 pos:2494 chunknumber 23000 contains 21609 sites
+	-> Printing at chr: JASDQU010105539.1 pos:21786 chunknumber 23100 contains 756 sites
+	-> Printing at chr: JASDQU010105621.1 pos:205472 chunknumber 23200 contains 719 sites
+	-> Printing at chr: JASDQU010105712.1 pos:5367 chunknumber 23300 contains 28132 sites
+	-> Printing at chr: JASDQU010105780.1 pos:150759 chunknumber 23400 contains 636 sites
+	-> Printing at chr: JASDQU010105853.1 pos:118998 chunknumber 23500 contains 194 sites
+PROBS at: JASDQU010105857.1	177905
+	-> Printing at chr: JASDQU010105961.1 pos:94880 chunknumber 23600 contains 314 sites
+	-> Printing at chr: JASDQU010106062.1 pos:227561 chunknumber 23700 contains 2573 sites
+PROBS at: JASDQU010106107.1	63106
+	-> Printing at chr: JASDQU010106214.1 pos:227150 chunknumber 23800 contains 525 sites
+	-> Printing at chr: JASDQU010106355.1 pos:92623 chunknumber 23900 contains 76128 sites
+	-> Printing at chr: JASDQU010106475.1 pos:3663 chunknumber 24000 contains 24869 sites
+	-> Printing at chr: JASDQU010106544.1 pos:103290 chunknumber 24100 contains 2438 sites
+PROBS at: JASDQU010106584.1	31734
+	-> Printing at chr: JASDQU010106644.1 pos:164252 chunknumber 24200 contains 278 sites
+	-> Printing at chr: JASDQU010106734.1 pos:112253 chunknumber 24300 contains 386 sites
+	-> Printing at chr: JASDQU010106858.1 pos:7073 chunknumber 24400 contains 14813 sites
+PROBS at: JASDQU010106878.1	114345
+	-> Printing at chr: JASDQU010106975.1 pos:27346 chunknumber 24500 contains 15776 sites
+	-> Printing at chr: JASDQU010107051.1 pos:84777 chunknumber 24600 contains 267 sites
+	-> Printing at chr: JASDQU010107130.1 pos:88526 chunknumber 24700 contains 311 sites
+	-> Printing at chr: JASDQU010107201.1 pos:281892 chunknumber 24800 contains 425 sites
+	-> Printing at chr: JASDQU010107314.1 pos:223 chunknumber 24900 contains 39284 sites
+	-> Printing at chr: JASDQU010107401.1 pos:243226 chunknumber 25000 contains 2961 sites
+	-> Printing at chr: JASDQU010107503.1 pos:63972 chunknumber 25100 contains 32062 sites
+	-> Printing at chr: JASDQU010107579.1 pos:191694 chunknumber 25200 contains 1586 sites
+	-> Printing at chr: JASDQU010107674.1 pos:118989 chunknumber 25300 contains 354 sites
+	-> Printing at chr: JASDQU010107790.1 pos:204809 chunknumber 25400 contains 762 sites
+	-> Printing at chr: JASDQU010107915.1 pos:215465 chunknumber 25500 contains 3272 sites
+	-> Printing at chr: JASDQU010108026.1 pos:32 chunknumber 25600 contains 20924 sites
+	-> Printing at chr: JASDQU010108107.1 pos:183992 chunknumber 25700 contains 506 sites
+	-> Printing at chr: JASDQU010108192.1 pos:40 chunknumber 25800 contains 11791 sites
+	-> Printing at chr: JASDQU010108312.1 pos:129986 chunknumber 25900 contains 443 sites
+	-> Printing at chr: JASDQU010108451.1 pos:256808 chunknumber 26000 contains 754 sites
+	-> Printing at chr: JASDQU010108566.1 pos:202414 chunknumber 26100 contains 1490 sites
+	-> Printing at chr: JASDQU010108665.1 pos:249405 chunknumber 26200 contains 417 sites
+	-> Printing at chr: JASDQU010108781.1 pos:201197 chunknumber 26300 contains 115 sites
+	-> Printing at chr: JASDQU010108955.1 pos:45025 chunknumber 26400 contains 263 sites
+	-> Printing at chr: JASDQU010109128.1 pos:167482 chunknumber 26500 contains 2862 sites
+	-> Printing at chr: JASDQU010109240.1 pos:1523 chunknumber 26600 contains 11039 sites
+	-> Printing at chr: JASDQU010109375.1 pos:1 chunknumber 26700 contains 61726 sites
+	-> Printing at chr: JASDQU010109448.1 pos:74034 chunknumber 26800 contains 2028 sites
+	-> Printing at chr: JASDQU010109526.1 pos:79174 chunknumber 26900 contains 6698 sites
+	-> Printing at chr: JASDQU010109621.1 pos:245578 chunknumber 27000 contains 303 sites
+	-> Printing at chr: JASDQU010118278.1 pos:440 chunknumber 27100 contains 231 sites
+No data for chromoId=5092 chromoname=JASDQU010122103.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010124278.1 pos:4784 chunknumber 27200 contains 336 sites
+	-> Printing at chr: JASDQU010169727.1 pos:13806 chunknumber 27300 contains 2504 sites
+	-> Printing at chr: JASDQU010170233.1 pos:18769 chunknumber 27400 contains 288 sites
+PROBS at: JASDQU010170520.1	14265
+	-> Printing at chr: JASDQU010170706.1 pos:263 chunknumber 27500 contains 3617 sites
+	-> Printing at chr: JASDQU010171349.1 pos:1295 chunknumber 27600 contains 3507 sites
+	-> Printing at chr: JASDQU010171698.1 pos:20047 chunknumber 27700 contains 172 sites
+	-> Printing at chr: JASDQU010172394.1 pos:14093 chunknumber 27800 contains 215 sites
+	-> Printing at chr: JASDQU010172780.1 pos:27491 chunknumber 27900 contains 287 sites
+	-> Printing at chr: JASDQU010173344.1 pos:16146 chunknumber 28000 contains 322 sites
+	-> Printing at chr: JASDQU010173991.1 pos:2539 chunknumber 28100 contains 8560 sites
+PROBS at: JASDQU010174347.1	8895
+	-> Printing at chr: JASDQU010174638.1 pos:45477 chunknumber 28200 contains 417 sites
+PROBS at: JASDQU010176994.1	4304
+	-> Printing at chr: JASDQU010179321.1 pos:776 chunknumber 28300 contains 1555 sites
+	-> Printing at chr: JASDQU010185724.1 pos:17023 chunknumber 28400 contains 561 sites
+PROBS at: JASDQU010185901.1	19196
+	-> Printing at chr: JASDQU010186221.1 pos:22281 chunknumber 28500 contains 728 sites
+	-> Printing at chr: JASDQU010186708.1 pos:17897 chunknumber 28600 contains 653 sites
+	-> Printing at chr: JASDQU010187178.1 pos:24553 chunknumber 28700 contains 1153 sites
+	-> Printing at chr: JASDQU010187683.1 pos:19856 chunknumber 28800 contains 381 sites
+	-> Printing at chr: JASDQU010188354.1 pos:20793 chunknumber 28900 contains 554 sites
+	-> Printing at chr: JASDQU010188783.1 pos:34272 chunknumber 29000 contains 602 sites
+	-> Printing at chr: JASDQU010189452.1 pos:14981 chunknumber 29100 contains 1326 sites
+	-> Printing at chr: JASDQU010190207.1 pos:336 chunknumber 29200 contains 6869 sites
+PROBS at: JASDQU010190513.1	13644
+	-> Printing at chr: JASDQU010190841.1 pos:35777 chunknumber 29300 contains 215 sites
+	-> Printing at chr: JASDQU010191544.1 pos:5882 chunknumber 29400 contains 576 sites
+	-> Printing at chr: JASDQU010191879.1 pos:17523 chunknumber 29500 contains 278 sites
+	-> Printing at chr: JASDQU010192477.1 pos:19495 chunknumber 29600 contains 894 sites
+	-> Printing at chr: JASDQU010193114.1 pos:18264 chunknumber 29700 contains 138 sites
+	-> Printing at chr: JASDQU010193837.1 pos:8485 chunknumber 29800 contains 3553 sites
+	-> Printing at chr: JASDQU010194450.1 pos:17959 chunknumber 29900 contains 424 sites
+	-> Printing at chr: JASDQU010195317.1 pos:14811 chunknumber 30000 contains 88 sites
+	-> Printing at chr: JASDQU010196078.1 pos:2371 chunknumber 30100 contains 3028 sites
+	-> Printing at chr: JASDQU010196711.1 pos:14816 chunknumber 30200 contains 24 sites
+	-> Printing at chr: JASDQU010197434.1 pos:36387 chunknumber 30300 contains 167 sites
+	-> Printing at chr: JASDQU010197879.1 pos:11043 chunknumber 30400 contains 149 sites
+	-> Printing at chr: JASDQU010198717.1 pos:433 chunknumber 30500 contains 1501 sites
+	-> Printing at chr: JASDQU010199151.1 pos:18690 chunknumber 30600 contains 177 sites
+	-> Printing at chr: JASDQU010199744.1 pos:18894 chunknumber 30700 contains 953 sites
+	-> Printing at chr: JASDQU010200338.1 pos:10219 chunknumber 30800 contains 267 sites
+	-> Printing at chr: JASDQU010200786.1 pos:26238 chunknumber 30900 contains 25 sites
+	-> Printing at chr: JASDQU010201540.1 pos:1084 chunknumber 31000 contains 1558 sites
+	-> Printing at chr: JASDQU010202068.1 pos:598 chunknumber 31100 contains 3320 sites
+	-> Printing at chr: JASDQU010202984.1 pos:12179 chunknumber 31200 contains 1210 sites
+	-> Printing at chr: JASDQU010203537.1 pos:17517 chunknumber 31300 contains 343 sites
+	-> Printing at chr: JASDQU010204006.1 pos:787 chunknumber 31400 contains 2949 sites
+	-> Printing at chr: JASDQU010204635.1 pos:14706 chunknumber 31500 contains 430 sites
+	-> Printing at chr: JASDQU010205367.1 pos:190 chunknumber 31600 contains 21555 sites
+	-> Printing at chr: JASDQU010205730.1 pos:12276 chunknumber 31700 contains 450 sites
+	-> Printing at chr: JASDQU010206068.1 pos:27536 chunknumber 31800 contains 73 sites
+PROBS at: JASDQU010206345.1	77050
+	-> Printing at chr: JASDQU010206572.1 pos:89 chunknumber 31900 contains 4361 sites
+	-> Printing at chr: JASDQU010207047.1 pos:120 chunknumber 32000 contains 8527 sites
+	-> Printing at chr: JASDQU010207399.1 pos:2843 chunknumber 32100 contains 9287 sites
+	-> Printing at chr: JASDQU010207799.1 pos:4218 chunknumber 32200 contains 4687 sites
+	-> Printing at chr: JASDQU010208222.1 pos:44120 chunknumber 32300 contains 44 sites
+	-> Printing at chr: JASDQU010208615.1 pos:41667 chunknumber 32400 contains 147 sites
+	-> Printing at chr: JASDQU010209008.1 pos:14450 chunknumber 32500 contains 251 sites
+	-> Printing at chr: JASDQU010209340.1 pos:15381 chunknumber 32600 contains 3147 sites
+	-> Printing at chr: JASDQU010209699.1 pos:33179 chunknumber 32700 contains 278 sites
+	-> Printing at chr: JASDQU010210141.1 pos:402 chunknumber 32800 contains 4039 sites
+	-> Printing at chr: JASDQU010210848.1 pos:11063 chunknumber 32900 contains 2437 sites
+	-> Printing at chr: JASDQU010211451.1 pos:17003 chunknumber 33000 contains 627 sites
+	-> Printing at chr: JASDQU010212096.1 pos:24349 chunknumber 33100 contains 281 sites
+	-> Printing at chr: JASDQU010212800.1 pos:20008 chunknumber 33200 contains 518 sites
+	-> Printing at chr: JASDQU010213303.1 pos:1353 chunknumber 33300 contains 2526 sites
+	-> Printing at chr: JASDQU010213911.1 pos:8943 chunknumber 33400 contains 704 sites
+	-> Printing at chr: JASDQU010214567.1 pos:18005 chunknumber 33500 contains 163 sites
+	-> Printing at chr: JASDQU010215237.1 pos:5 chunknumber 33600 contains 2502 sites
+	-> Printing at chr: JASDQU010215745.1 pos:6444 chunknumber 33700 contains 577 sites
+	-> Printing at chr: JASDQU010216438.1 pos:2252 chunknumber 33800 contains 2155 sites
+	-> Printing at chr: JASDQU010217284.1 pos:12061 chunknumber 33900 contains 276 sites
+	-> Printing at chr: JASDQU010217833.1 pos:16063 chunknumber 34000 contains 173 sites
+	-> Printing at chr: JASDQU010218295.1 pos:14902 chunknumber 34100 contains 149 sites
+	-> Printing at chr: JASDQU010219269.1 pos:14702 chunknumber 34200 contains 1526 sites
+	-> Printing at chr: JASDQU010219876.1 pos:19106 chunknumber 34300 contains 417 sites
+	-> Printing at chr: JASDQU010220566.1 pos:1502 chunknumber 34400 contains 6494 sites
+	-> Printing at chr: JASDQU010221282.1 pos:13431 chunknumber 34500 contains 996 sites
+	-> Printing at chr: JASDQU010221760.1 pos:1872 chunknumber 34600 contains 1592 sites
+	-> Printing at chr: JASDQU010222153.1 pos:35116 chunknumber 34700 contains 482 sites
+	-> Printing at chr: JASDQU010222715.1 pos:7867 chunknumber 34800 contains 269 sites
+	-> Printing at chr: JASDQU010223268.1 pos:38537 chunknumber 34900 contains 918 sites
+	-> Printing at chr: JASDQU010223947.1 pos:11414 chunknumber 35000 contains 714 sites
+	-> Printing at chr: JASDQU010224659.1 pos:11423 chunknumber 35100 contains 2224 sites
+	-> Printing at chr: JASDQU010225087.1 pos:15091 chunknumber 35200 contains 832 sites
+	-> Printing at chr: JASDQU010225800.1 pos:15949 chunknumber 35300 contains 621 sites
+No data for chromoId=7107 chromoname=JASDQU010226171.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010226415.1 pos:13297 chunknumber 35400 contains 654 sites
+	-> Printing at chr: JASDQU010227158.1 pos:1 chunknumber 35500 contains 970 sites
+	-> Printing at chr: JASDQU010228336.1 pos:1633 chunknumber 35600 contains 1270 sites
+	-> Printing at chr: JASDQU010228924.1 pos:21248 chunknumber 35700 contains 29 sites
+	-> Printing at chr: JASDQU010229784.1 pos:32433 chunknumber 35800 contains 1021 sites
+	-> Printing at chr: JASDQU010235354.1 pos:20212 chunknumber 35900 contains 98 sites
+	-> Printing at chr: JASDQU010235900.1 pos:5456 chunknumber 36000 contains 215 sites
+	-> Printing at chr: JASDQU010236729.1 pos:56 chunknumber 36100 contains 2740 sites
+	-> Printing at chr: JASDQU010237525.1 pos:24716 chunknumber 36200 contains 140 sites
+	-> Printing at chr: JASDQU010238072.1 pos:29967 chunknumber 36300 contains 133 sites
+PROBS at: JASDQU010238486.1	16226
+	-> Printing at chr: JASDQU010238615.1 pos:1435 chunknumber 36400 contains 2687 sites
+PROBS at: JASDQU010239192.1	22169
+	-> Printing at chr: JASDQU010239427.1 pos:6820 chunknumber 36500 contains 1468 sites
+	-> Printing at chr: JASDQU010240182.1 pos:6883 chunknumber 36600 contains 590 sites
+	-> Printing at chr: JASDQU010240457.1 pos:68248 chunknumber 36700 contains 4731 sites
+	-> Printing at chr: JASDQU010240550.1 pos:7063 chunknumber 36800 contains 8454 sites
+PROBS at: JASDQU010240600.1	99504
+	-> Printing at chr: JASDQU010240623.1 pos:193016 chunknumber 36900 contains 973 sites
+	-> Printing at chr: JASDQU010240749.1 pos:12271 chunknumber 37000 contains 11102 sites
+	-> Printing at chr: JASDQU010240857.1 pos:241828 chunknumber 37100 contains 504 sites
+	-> Printing at chr: JASDQU010240949.1 pos:1142 chunknumber 37200 contains 28931 sites
+	-> Printing at chr: JASDQU010241082.1 pos:110693 chunknumber 37300 contains 253 sites
+	-> Printing at chr: JASDQU010241200.1 pos:244340 chunknumber 37400 contains 277 sites
+	-> Printing at chr: JASDQU010241330.1 pos:463 chunknumber 37500 contains 27247 sites
+	-> Printing at chr: JASDQU010241413.1 pos:89761 chunknumber 37600 contains 256 sites
+	-> Printing at chr: JASDQU010241570.1 pos:317574 chunknumber 37700 contains 3534 sites
+	-> Printing at chr: JASDQU010241708.1 pos:211429 chunknumber 37800 contains 764 sites
+PROBS at: JASDQU010241796.1	89836
+	-> Printing at chr: JASDQU010241820.1 pos:79246 chunknumber 37900 contains 6205 sites
+	-> Printing at chr: JASDQU010241947.1 pos:245365 chunknumber 38000 contains 182 sites
+	-> Printing at chr: JASDQU010242017.1 pos:76185 chunknumber 38100 contains 121 sites
+	-> Printing at chr: JASDQU010242113.1 pos:158364 chunknumber 38200 contains 171 sites
+	-> Printing at chr: JASDQU010242225.1 pos:1530 chunknumber 38300 contains 23438 sites
+	-> Printing at chr: JASDQU010242333.1 pos:327549 chunknumber 38400 contains 720 sites
+	-> Printing at chr: JASDQU010242419.1 pos:111002 chunknumber 38500 contains 830 sites
+	-> Printing at chr: JASDQU010242549.1 pos:129281 chunknumber 38600 contains 455 sites
+	-> Printing at chr: JASDQU010242667.1 pos:131653 chunknumber 38700 contains 258 sites
+	-> Printing at chr: JASDQU010242731.1 pos:282584 chunknumber 38800 contains 513 sites
+	-> Printing at chr: JASDQU010242813.1 pos:63036 chunknumber 38900 contains 6911 sites
+	-> Printing at chr: JASDQU010242950.1 pos:938 chunknumber 39000 contains 28473 sites
+	-> Printing at chr: JASDQU010243044.1 pos:91760 chunknumber 39100 contains 894 sites
+	-> Printing at chr: JASDQU010243210.1 pos:83820 chunknumber 39200 contains 1066 sites
+	-> Printing at chr: JASDQU010243295.1 pos:134408 chunknumber 39300 contains 108 sites
+	-> Printing at chr: JASDQU010243405.1 pos:358657 chunknumber 39400 contains 140 sites
+	-> Printing at chr: JASDQU010243542.1 pos:66519 chunknumber 39500 contains 616 sites
+PROBS at: JASDQU010243648.1	122543
+	-> Printing at chr: JASDQU010243687.1 pos:77920 chunknumber 39600 contains 417 sites
+	-> Printing at chr: JASDQU010243810.1 pos:85625 chunknumber 39700 contains 570 sites
+	-> Printing at chr: JASDQU010243887.1 pos:225785 chunknumber 39800 contains 695 sites
+	-> Printing at chr: JASDQU010243981.1 pos:116724 chunknumber 39900 contains 13741 sites
+	-> Printing at chr: JASDQU010244112.1 pos:111929 chunknumber 40000 contains 1173 sites
+	-> Printing at chr: JASDQU010244207.1 pos:143916 chunknumber 40100 contains 611 sites
+	-> Printing at chr: JASDQU010244334.1 pos:262326 chunknumber 40200 contains 278 sites
+PROBS at: JASDQU010244406.1	8208
+	-> Printing at chr: JASDQU010244469.1 pos:1 chunknumber 40300 contains 46486 sites
+	-> Printing at chr: JASDQU010244567.1 pos:1133 chunknumber 40400 contains 24232 sites
+	-> Printing at chr: JASDQU010244727.1 pos:28061 chunknumber 40500 contains 224 sites
+	-> Printing at chr: JASDQU010244824.1 pos:33437 chunknumber 40600 contains 903 sites
+PROBS at: JASDQU010244946.1	111247
+	-> Printing at chr: JASDQU010244960.1 pos:1641 chunknumber 40700 contains 48877 sites
+	-> Printing at chr: JASDQU010245108.1 pos:334275 chunknumber 40800 contains 2423 sites
+	-> Printing at chr: JASDQU010245218.1 pos:169820 chunknumber 40900 contains 213 sites
+	-> Printing at chr: JASDQU010245370.1 pos:187950 chunknumber 41000 contains 1633 sites
+	-> Printing at chr: JASDQU010245780.1 pos:6600 chunknumber 41100 contains 356 sites
+	-> Printing at chr: JASDQU010246441.1 pos:12741 chunknumber 41200 contains 278 sites
+	-> Printing at chr: JASDQU010247267.1 pos:13028 chunknumber 41300 contains 2479 sites
+	-> Printing at chr: JASDQU010247830.1 pos:406 chunknumber 41400 contains 5187 sites
+PROBS at: JASDQU010248542.1	12823
+PROBS at: JASDQU010248542.1	12872
+	-> Printing at chr: JASDQU010248764.1 pos:13431 chunknumber 41500 contains 303 sites
+	-> Printing at chr: JASDQU010249487.1 pos:7139 chunknumber 41600 contains 89 sites
+	-> Printing at chr: JASDQU010250337.1 pos:9995 chunknumber 41700 contains 4110 sites
+	-> Printing at chr: JASDQU010250964.1 pos:9056 chunknumber 41800 contains 3100 sites
+	-> Printing at chr: JASDQU010251661.1 pos:25617 chunknumber 41900 contains 539 sites
+	-> Printing at chr: JASDQU010252270.1 pos:15797 chunknumber 42000 contains 146 sites
+	-> Printing at chr: JASDQU010252839.1 pos:5042 chunknumber 42100 contains 1511 sites
+	-> Printing at chr: JASDQU010253510.1 pos:8102 chunknumber 42200 contains 30 sites
+	-> Printing at chr: JASDQU010254366.1 pos:10577 chunknumber 42300 contains 223 sites
+	-> Printing at chr: JASDQU010255180.1 pos:4849 chunknumber 42400 contains 492 sites
+	-> Printing at chr: JASDQU010256313.1 pos:11461 chunknumber 42500 contains 547 sites
+	-> Printing at chr: JASDQU010257192.1 pos:10221 chunknumber 42600 contains 357 sites
+	-> Printing at chr: JASDQU010257849.1 pos:11589 chunknumber 42700 contains 115 sites
+	-> Printing at chr: JASDQU010258906.1 pos:8855 chunknumber 42800 contains 1584 sites
+PROBS at: JASDQU010258976.1	133
+	-> Printing at chr: JASDQU010259691.1 pos:18399 chunknumber 42900 contains 211 sites
+	-> Printing at chr: JASDQU010260664.1 pos:22928 chunknumber 43000 contains 190 sites
+	-> Printing at chr: JASDQU010261374.1 pos:21120 chunknumber 43100 contains 321 sites
+	-> Printing at chr: JASDQU010262122.1 pos:15928 chunknumber 43200 contains 821 sites
+	-> Printing at chr: JASDQU010263156.1 pos:12767 chunknumber 43300 contains 145 sites
+	-> Printing at chr: JASDQU010263927.1 pos:15035 chunknumber 43400 contains 70 sites
+	-> Printing at chr: JASDQU010264802.1 pos:11895 chunknumber 43500 contains 1437 sites
+	-> Printing at chr: JASDQU010270539.1 pos:2761 chunknumber 43600 contains 2702 sites
+	-> Printing at chr: JASDQU010271162.1 pos:1479 chunknumber 43700 contains 122 sites
+	-> Printing at chr: JASDQU010272025.1 pos:16628 chunknumber 43800 contains 834 sites
+	-> Printing at chr: JASDQU010272694.1 pos:270 chunknumber 43900 contains 5453 sites
+	-> Printing at chr: JASDQU010273638.1 pos:9769 chunknumber 44000 contains 417 sites
+	-> Printing at chr: JASDQU010274967.1 pos:137 chunknumber 44100 contains 10693 sites
+	-> Printing at chr: JASDQU010275742.1 pos:14065 chunknumber 44200 contains 417 sites
+	-> Printing at chr: JASDQU010276441.1 pos:24941 chunknumber 44300 contains 583 sites
+	-> Printing at chr: JASDQU010277565.1 pos:11969 chunknumber 44400 contains 318 sites
+	-> Printing at chr: JASDQU010278527.1 pos:13416 chunknumber 44500 contains 347 sites
+PROBS at: JASDQU010278834.1	3758
+PROBS at: JASDQU010279138.1	14088
+	-> Printing at chr: JASDQU010279246.1 pos:516 chunknumber 44600 contains 3608 sites
+	-> Printing at chr: JASDQU010280003.1 pos:12461 chunknumber 44700 contains 417 sites
+	-> Printing at chr: JASDQU010280957.1 pos:12225 chunknumber 44800 contains 703 sites
+	-> Printing at chr: JASDQU010281756.1 pos:14399 chunknumber 44900 contains 157 sites
+	-> Printing at chr: JASDQU010282698.1 pos:11583 chunknumber 45000 contains 388 sites
+	-> Printing at chr: JASDQU010283915.1 pos:1352 chunknumber 45100 contains 4121 sites
+	-> Printing at chr: JASDQU010284794.1 pos:7040 chunknumber 45200 contains 548 sites
+	-> Printing at chr: JASDQU010288336.1 pos:1753 chunknumber 45300 contains 1042 sites
+	-> Printing at chr: JASDQU010290601.1 pos:1369 chunknumber 45400 contains 131 sites
+	-> Printing at chr: JASDQU010291462.1 pos:5991 chunknumber 45500 contains 267 sites
+	-> Printing at chr: JASDQU010292387.1 pos:1 chunknumber 45600 contains 4436 sites
+	-> Printing at chr: JASDQU010293248.1 pos:3329 chunknumber 45700 contains 4939 sites
+	-> Printing at chr: JASDQU010294105.1 pos:20240 chunknumber 45800 contains 610 sites
+	-> Printing at chr: JASDQU010295399.1 pos:1928 chunknumber 45900 contains 1828 sites
+	-> Printing at chr: JASDQU010296399.1 pos:914 chunknumber 46000 contains 1800 sites
+	-> Printing at chr: JASDQU010297512.1 pos:2870 chunknumber 46100 contains 413 sites
+	-> Printing at chr: JASDQU010298338.1 pos:8486 chunknumber 46200 contains 425 sites
+	-> Printing at chr: JASDQU010299659.1 pos:1561 chunknumber 46300 contains 2412 sites
+	-> Printing at chr: JASDQU010300473.1 pos:21494 chunknumber 46400 contains 847 sites
+	-> Printing at chr: JASDQU010301479.1 pos:13677 chunknumber 46500 contains 93 sites
+	-> Printing at chr: JASDQU010302545.1 pos:763 chunknumber 46600 contains 5496 sites
+	-> Printing at chr: JASDQU010303265.1 pos:11542 chunknumber 46700 contains 177 sites
+	-> Printing at chr: JASDQU010303910.1 pos:7957 chunknumber 46800 contains 1134 sites
+	-> Printing at chr: JASDQU010304870.1 pos:11223 chunknumber 46900 contains 273 sites
+	-> Printing at chr: JASDQU010305484.1 pos:63289 chunknumber 47000 contains 967 sites
+	-> Printing at chr: JASDQU010305549.1 pos:125452 chunknumber 47100 contains 410 sites
+	-> Printing at chr: JASDQU010305699.1 pos:174207 chunknumber 47200 contains 482 sites
+	-> Printing at chr: JASDQU010305824.1 pos:125977 chunknumber 47300 contains 438 sites
+	-> Printing at chr: JASDQU010305943.1 pos:67965 chunknumber 47400 contains 73 sites
+	-> Printing at chr: JASDQU010306081.1 pos:142497 chunknumber 47500 contains 1755 sites
+	-> Printing at chr: JASDQU010306211.1 pos:23344 chunknumber 47600 contains 340 sites
+	-> Printing at chr: JASDQU010306337.1 pos:75151 chunknumber 47700 contains 1203 sites
+	-> Printing at chr: JASDQU010306459.1 pos:99906 chunknumber 47800 contains 7707 sites
+PROBS at: JASDQU010306485.1	28550
+	-> Printing at chr: JASDQU010306604.1 pos:183772 chunknumber 47900 contains 849 sites
+	-> Printing at chr: JASDQU010306707.1 pos:50 chunknumber 48000 contains 15845 sites
+	-> Printing at chr: JASDQU010306837.1 pos:112666 chunknumber 48100 contains 534 sites
+	-> Printing at chr: JASDQU010306933.1 pos:91827 chunknumber 48200 contains 393 sites
+PROBS at: JASDQU010306979.1	3435
+	-> Printing at chr: JASDQU010307037.1 pos:195260 chunknumber 48300 contains 698 sites
+PROBS at: JASDQU010307118.1	38283
+	-> Printing at chr: JASDQU010307173.1 pos:120661 chunknumber 48400 contains 1058 sites
+	-> Printing at chr: JASDQU010307297.1 pos:301981 chunknumber 48500 contains 1339 sites
+	-> Printing at chr: JASDQU010307474.1 pos:53222 chunknumber 48600 contains 746 sites
+	-> Printing at chr: JASDQU010307572.1 pos:98550 chunknumber 48700 contains 1627 sites
+	-> Printing at chr: JASDQU010307686.1 pos:91947 chunknumber 48800 contains 18547 sites
+PROBS at: JASDQU010307821.1	227576
+	-> Printing at chr: JASDQU010307843.1 pos:183731 chunknumber 48900 contains 74 sites
+	-> Printing at chr: JASDQU010307935.1 pos:73704 chunknumber 49000 contains 261 sites
+	-> Printing at chr: JASDQU010308076.1 pos:81976 chunknumber 49100 contains 10997 sites
+	-> Printing at chr: JASDQU010308176.1 pos:170740 chunknumber 49200 contains 566 sites
+	-> Printing at chr: JASDQU010308322.1 pos:165030 chunknumber 49300 contains 2380 sites
+PROBS at: JASDQU010308362.1	52885
+	-> Printing at chr: JASDQU010308482.1 pos:276 chunknumber 49400 contains 21105 sites
+	-> Printing at chr: JASDQU010308620.1 pos:124412 chunknumber 49500 contains 5924 sites
+PROBS at: JASDQU010308629.1	329917
+	-> Printing at chr: JASDQU010308792.1 pos:207424 chunknumber 49600 contains 819 sites
+	-> Printing at chr: JASDQU010308930.1 pos:114998 chunknumber 49700 contains 471 sites
+	-> Printing at chr: JASDQU010309031.1 pos:74905 chunknumber 49800 contains 278 sites
+	-> Printing at chr: JASDQU010309237.1 pos:83369 chunknumber 49900 contains 1822 sites
+	-> Printing at chr: JASDQU010309363.1 pos:108987 chunknumber 50000 contains 2546 sites
+	-> Printing at chr: JASDQU010309529.1 pos:1392 chunknumber 50100 contains 12334 sites
+	-> Printing at chr: JASDQU010309686.1 pos:76542 chunknumber 50200 contains 695 sites
+	-> Printing at chr: JASDQU010309844.1 pos:22940 chunknumber 50300 contains 1084 sites
+	-> Printing at chr: JASDQU010309987.1 pos:63321 chunknumber 50400 contains 258 sites
+	-> Printing at chr: JASDQU010310168.1 pos:942 chunknumber 50500 contains 11935 sites
+	-> Printing at chr: JASDQU010310304.1 pos:58243 chunknumber 50600 contains 1034 sites
+	-> Printing at chr: JASDQU010310742.1 pos:21793 chunknumber 50700 contains 1087 sites
+	-> Printing at chr: JASDQU010311762.1 pos:7768 chunknumber 50800 contains 2213 sites
+	-> Printing at chr: JASDQU010312675.1 pos:2048 chunknumber 50900 contains 2386 sites
+	-> Printing at chr: JASDQU010313549.1 pos:6078 chunknumber 51000 contains 191 sites
+	-> Printing at chr: JASDQU010314573.1 pos:538 chunknumber 51100 contains 252 sites
+	-> Printing at chr: JASDQU010315890.1 pos:29 chunknumber 51200 contains 2952 sites
+	-> Printing at chr: JASDQU010316550.1 pos:612 chunknumber 51300 contains 3286 sites
+	-> Printing at chr: JASDQU010317507.1 pos:10967 chunknumber 51400 contains 825 sites
+	-> Printing at chr: JASDQU010318171.1 pos:19652 chunknumber 51500 contains 265 sites
+	-> Printing at chr: JASDQU010319356.1 pos:25699 chunknumber 51600 contains 143 sites
+	-> Printing at chr: JASDQU010320079.1 pos:19116 chunknumber 51700 contains 189 sites
+	-> Printing at chr: JASDQU010321289.1 pos:10774 chunknumber 51800 contains 273 sites
+	-> Printing at chr: JASDQU010322465.1 pos:5129 chunknumber 51900 contains 572 sites
+	-> Printing at chr: JASDQU010323327.1 pos:3869 chunknumber 52000 contains 277 sites
+	-> Printing at chr: JASDQU010324284.1 pos:3867 chunknumber 52100 contains 2876 sites
+	-> Printing at chr: JASDQU010330171.1 pos:21594 chunknumber 52200 contains 398 sites
+	-> Printing at chr: JASDQU010331102.1 pos:1855 chunknumber 52300 contains 1105 sites
+	-> Printing at chr: JASDQU010332026.1 pos:11044 chunknumber 52400 contains 108 sites
+PROBS at: JASDQU010332301.1	9517
+	-> Printing at chr: JASDQU010332987.1 pos:1547 chunknumber 52500 contains 3123 sites
+	-> Printing at chr: JASDQU010334470.1 pos:21423 chunknumber 52600 contains 205 sites
+PROBS at: JASDQU010335129.1	7824
+	-> Printing at chr: JASDQU010335380.1 pos:8317 chunknumber 52700 contains 842 sites
+	-> Printing at chr: JASDQU010336394.1 pos:12349 chunknumber 52800 contains 128 sites
+	-> Printing at chr: JASDQU010337536.1 pos:11764 chunknumber 52900 contains 7 sites
+	-> Printing at chr: JASDQU010338485.1 pos:6248 chunknumber 53000 contains 2315 sites
+	-> Printing at chr: JASDQU010339397.1 pos:1 chunknumber 53100 contains 1192 sites
+	-> Printing at chr: JASDQU010340765.1 pos:4966 chunknumber 53200 contains 137 sites
+	-> Printing at chr: JASDQU010344299.1 pos:1098 chunknumber 53300 contains 1249 sites
+	-> Printing at chr: JASDQU010346064.1 pos:11993 chunknumber 53400 contains 240 sites
+	-> Printing at chr: JASDQU010347070.1 pos:17316 chunknumber 53500 contains 549 sites
+	-> Printing at chr: JASDQU010348300.1 pos:8 chunknumber 53600 contains 148 sites
+	-> Printing at chr: JASDQU010349247.1 pos:891 chunknumber 53700 contains 1079 sites
+	-> Printing at chr: JASDQU010350539.1 pos:8114 chunknumber 53800 contains 340 sites
+	-> Printing at chr: JASDQU010351664.1 pos:2644 chunknumber 53900 contains 3131 sites
+	-> Printing at chr: JASDQU010353108.1 pos:11991 chunknumber 54000 contains 693 sites
+	-> Printing at chr: JASDQU010354142.1 pos:3890 chunknumber 54100 contains 589 sites
+	-> Printing at chr: JASDQU010355424.1 pos:4928 chunknumber 54200 contains 389 sites
+	-> Printing at chr: JASDQU010356278.1 pos:28 chunknumber 54300 contains 4354 sites
+	-> Printing at chr: JASDQU010357550.1 pos:1455 chunknumber 54400 contains 1187 sites
+	-> Printing at chr: JASDQU010359364.1 pos:6879 chunknumber 54500 contains 321 sites
+	-> Printing at chr: JASDQU010360305.1 pos:5607 chunknumber 54600 contains 1149 sites
+	-> Printing at chr: JASDQU010360929.1 pos:12013 chunknumber 54700 contains 1685 sites
+	-> Printing at chr: JASDQU010361823.1 pos:817 chunknumber 54800 contains 37 sites
+	-> Printing at chr: JASDQU010362940.1 pos:11462 chunknumber 54900 contains 38 sites
+	-> Printing at chr: JASDQU010364452.1 pos:5466 chunknumber 55000 contains 708 sites
+	-> Printing at chr: JASDQU010365072.1 pos:4253 chunknumber 55100 contains 1652 sites
+	-> Printing at chr: JASDQU010366259.1 pos:1100 chunknumber 55200 contains 2570 sites
+	-> Printing at chr: JASDQU010367727.1 pos:3402 chunknumber 55300 contains 58 sites
+	-> Printing at chr: JASDQU010368442.1 pos:198 chunknumber 55400 contains 4422 sites
+	-> Printing at chr: JASDQU010369600.1 pos:1134 chunknumber 55500 contains 3008 sites
+	-> Printing at chr: JASDQU010370394.1 pos:1 chunknumber 55600 contains 25112 sites
+	-> Printing at chr: JASDQU010370535.1 pos:140453 chunknumber 55700 contains 478 sites
+	-> Printing at chr: JASDQU010370725.1 pos:56138 chunknumber 55800 contains 255 sites
+	-> Printing at chr: JASDQU010370861.1 pos:90577 chunknumber 55900 contains 302 sites
+	-> Printing at chr: JASDQU010370971.1 pos:61241 chunknumber 56000 contains 154 sites
+	-> Printing at chr: JASDQU010371093.1 pos:73317 chunknumber 56100 contains 9 sites
+	-> Printing at chr: JASDQU010371222.1 pos:39659 chunknumber 56200 contains 2849 sites
+PROBS at: JASDQU010371254.1	70963
+	-> Printing at chr: JASDQU010371370.1 pos:7036 chunknumber 56300 contains 14910 sites
+	-> Printing at chr: JASDQU010371526.1 pos:58188 chunknumber 56400 contains 4381 sites
+	-> Printing at chr: JASDQU010371707.1 pos:610 chunknumber 56500 contains 7751 sites
+	-> Printing at chr: JASDQU010371865.1 pos:84732 chunknumber 56600 contains 975 sites
+	-> Printing at chr: JASDQU010371968.1 pos:171322 chunknumber 56700 contains 4221 sites
+PROBS at: JASDQU010372044.1	117053
+PROBS at: JASDQU010372044.1	117183
+	-> Printing at chr: JASDQU010372144.1 pos:56159 chunknumber 56800 contains 299 sites
+	-> Printing at chr: JASDQU010372309.1 pos:58784 chunknumber 56900 contains 486 sites
+	-> Printing at chr: JASDQU010372496.1 pos:92308 chunknumber 57000 contains 10195 sites
+	-> Printing at chr: JASDQU010372587.1 pos:197313 chunknumber 57100 contains 1142 sites
+	-> Printing at chr: JASDQU010372699.1 pos:3665 chunknumber 57200 contains 916 sites
+	-> Printing at chr: JASDQU010372868.1 pos:263 chunknumber 57300 contains 28197 sites
+	-> Printing at chr: JASDQU010373062.1 pos:44624 chunknumber 57400 contains 1091 sites
+	-> Printing at chr: JASDQU010373214.1 pos:75187 chunknumber 57500 contains 1529 sites
+	-> Printing at chr: JASDQU010373351.1 pos:70794 chunknumber 57600 contains 488 sites
+	-> Printing at chr: JASDQU010373519.1 pos:1382 chunknumber 57700 contains 29682 sites
+	-> Printing at chr: JASDQU010373648.1 pos:109858 chunknumber 57800 contains 749 sites
+	-> Printing at chr: JASDQU010373842.1 pos:2575 chunknumber 57900 contains 10200 sites
+	-> Printing at chr: JASDQU010373954.1 pos:121096 chunknumber 58000 contains 776 sites
+	-> Printing at chr: JASDQU010374150.1 pos:83806 chunknumber 58100 contains 849 sites
+PROBS at: JASDQU010374161.1	5820
+	-> Printing at chr: JASDQU010374280.1 pos:40225 chunknumber 58200 contains 10121 sites
+	-> Printing at chr: JASDQU010374449.1 pos:65391 chunknumber 58300 contains 692 sites
+	-> Printing at chr: JASDQU010374624.1 pos:79602 chunknumber 58400 contains 415 sites
+	-> Printing at chr: JASDQU010374726.1 pos:2175 chunknumber 58500 contains 15485 sites
+	-> Printing at chr: JASDQU010374859.1 pos:81908 chunknumber 58600 contains 13751 sites
+	-> Printing at chr: JASDQU010375087.1 pos:50060 chunknumber 58700 contains 643 sites
+	-> Printing at chr: JASDQU010375267.1 pos:17947 chunknumber 58800 contains 11030 sites
+	-> Printing at chr: JASDQU010376111.1 pos:5443 chunknumber 58900 contains 1669 sites
+	-> Printing at chr: JASDQU010377327.1 pos:6141 chunknumber 59000 contains 402 sites
+	-> Printing at chr: JASDQU010378388.1 pos:4555 chunknumber 59100 contains 1013 sites
+	-> Printing at chr: JASDQU010379545.1 pos:5295 chunknumber 59200 contains 372 sites
+	-> Printing at chr: JASDQU010380673.1 pos:1032 chunknumber 59300 contains 1205 sites
+	-> Printing at chr: JASDQU010381414.1 pos:7922 chunknumber 59400 contains 172 sites
+	-> Printing at chr: JASDQU010383198.1 pos:19652 chunknumber 59500 contains 497 sites
+	-> Printing at chr: JASDQU010384670.1 pos:1349 chunknumber 59600 contains 50 sites
+	-> Printing at chr: JASDQU010390384.1 pos:3844 chunknumber 59700 contains 2060 sites
+	-> Printing at chr: JASDQU010391312.1 pos:7612 chunknumber 59800 contains 89 sites
+	-> Printing at chr: JASDQU010392550.1 pos:8089 chunknumber 59900 contains 1053 sites
+	-> Printing at chr: JASDQU010394186.1 pos:7256 chunknumber 60000 contains 542 sites
+	-> Printing at chr: JASDQU010396144.1 pos:472 chunknumber 60100 contains 1366 sites
+	-> Printing at chr: JASDQU010399819.1 pos:2924 chunknumber 60200 contains 411 sites
+	-> Printing at chr: JASDQU010401443.1 pos:16372 chunknumber 60300 contains 461 sites
+	-> Printing at chr: JASDQU010402788.1 pos:9873 chunknumber 60400 contains 157 sites
+	-> Printing at chr: JASDQU010404308.1 pos:16 chunknumber 60500 contains 2055 sites
+	-> Printing at chr: JASDQU010405877.1 pos:10240 chunknumber 60600 contains 1305 sites
+	-> Printing at chr: JASDQU010406914.1 pos:10274 chunknumber 60700 contains 170 sites
+	-> Printing at chr: JASDQU010408466.1 pos:5480 chunknumber 60800 contains 908 sites
+	-> Printing at chr: JASDQU010409773.1 pos:1206 chunknumber 60900 contains 503 sites
+	-> Printing at chr: JASDQU010411269.1 pos:250 chunknumber 61000 contains 3656 sites
+	-> Printing at chr: JASDQU010412885.1 pos:6241 chunknumber 61100 contains 2090 sites
+	-> Printing at chr: JASDQU010413992.1 pos:10240 chunknumber 61200 contains 142 sites
+	-> Printing at chr: JASDQU010415650.1 pos:3214 chunknumber 61300 contains 229 sites
+	-> Printing at chr: JASDQU010417165.1 pos:8883 chunknumber 61400 contains 371 sites
+	-> Printing at chr: JASDQU010418457.1 pos:355 chunknumber 61500 contains 3073 sites
+	-> Printing at chr: JASDQU010419867.1 pos:9058 chunknumber 61600 contains 468 sites
+	-> Printing at chr: JASDQU010420392.1 pos:9445 chunknumber 61700 contains 307 sites
+	-> Printing at chr: JASDQU010421795.1 pos:11084 chunknumber 61800 contains 491 sites
+	-> Printing at chr: JASDQU010423184.1 pos:17574 chunknumber 61900 contains 27 sites
+	-> Printing at chr: JASDQU010424845.1 pos:8751 chunknumber 62000 contains 294 sites
+	-> Printing at chr: JASDQU010426184.1 pos:1 chunknumber 62100 contains 2283 sites
+	-> Printing at chr: JASDQU010427490.1 pos:5988 chunknumber 62200 contains 104 sites
+	-> Printing at chr: JASDQU010429380.1 pos:8535 chunknumber 62300 contains 406 sites
+	-> Printing at chr: JASDQU010430963.1 pos:6910 chunknumber 62400 contains 1740 sites
+PROBS at: JASDQU010431430.1	8738
+	-> Printing at chr: JASDQU010432758.1 pos:4894 chunknumber 62500 contains 346 sites
+	-> Printing at chr: JASDQU010434380.1 pos:7920 chunknumber 62600 contains 49 sites
+	-> Printing at chr: JASDQU010435409.1 pos:755 chunknumber 62700 contains 14263 sites
+	-> Printing at chr: JASDQU010435558.1 pos:4263 chunknumber 62800 contains 7529 sites
+	-> Printing at chr: JASDQU010435718.1 pos:65059 chunknumber 62900 contains 1281 sites
+PROBS at: JASDQU010435838.1	44408
+	-> Printing at chr: JASDQU010435898.1 pos:85802 chunknumber 63000 contains 310 sites
+	-> Printing at chr: JASDQU010436037.1 pos:22915 chunknumber 63100 contains 688 sites
+	-> Printing at chr: JASDQU010436167.1 pos:32241 chunknumber 63200 contains 424 sites
+	-> Printing at chr: JASDQU010436308.1 pos:2831 chunknumber 63300 contains 16741 sites
+	-> Printing at chr: JASDQU010436465.1 pos:775 chunknumber 63400 contains 21592 sites
+	-> Printing at chr: JASDQU010436609.1 pos:106538 chunknumber 63500 contains 171 sites
+	-> Printing at chr: JASDQU010436775.1 pos:43069 chunknumber 63600 contains 1878 sites
+	-> Printing at chr: JASDQU010436957.1 pos:13142 chunknumber 63700 contains 3267 sites
+	-> Printing at chr: JASDQU010437103.1 pos:76850 chunknumber 63800 contains 2075 sites
+	-> Printing at chr: JASDQU010437272.1 pos:2177 chunknumber 63900 contains 15204 sites
+	-> Printing at chr: JASDQU010437437.1 pos:62666 chunknumber 64000 contains 273 sites
+	-> Printing at chr: JASDQU010437553.1 pos:91570 chunknumber 64100 contains 417 sites
+	-> Printing at chr: JASDQU010437662.1 pos:140980 chunknumber 64200 contains 190 sites
+	-> Printing at chr: JASDQU010437786.1 pos:96856 chunknumber 64300 contains 254 sites
+	-> Printing at chr: JASDQU010438019.1 pos:94446 chunknumber 64400 contains 647 sites
+	-> Printing at chr: JASDQU010438143.1 pos:87021 chunknumber 64500 contains 499 sites
+PROBS at: JASDQU010438176.1	18155
+	-> Printing at chr: JASDQU010438262.1 pos:30228 chunknumber 64600 contains 252 sites
+	-> Printing at chr: JASDQU010438399.1 pos:158324 chunknumber 64700 contains 331 sites
+PROBS at: JASDQU010438406.1	11644
+	-> Printing at chr: JASDQU010438608.1 pos:138416 chunknumber 64800 contains 480 sites
+	-> Printing at chr: JASDQU010438887.1 pos:165125 chunknumber 64900 contains 347 sites
+	-> Printing at chr: JASDQU010439078.1 pos:17815 chunknumber 65000 contains 1457 sites
+	-> Printing at chr: JASDQU010439287.1 pos:94631 chunknumber 65100 contains 561 sites
+	-> Printing at chr: JASDQU010439495.1 pos:945 chunknumber 65200 contains 18587 sites
+	-> Printing at chr: JASDQU010439704.1 pos:96878 chunknumber 65300 contains 3279 sites
+	-> Printing at chr: JASDQU010439879.1 pos:82274 chunknumber 65400 contains 422 sites
+	-> Printing at chr: JASDQU010440079.1 pos:58758 chunknumber 65500 contains 4560 sites
+	-> Printing at chr: JASDQU010440232.1 pos:109404 chunknumber 65600 contains 10074 sites
+	-> Printing at chr: JASDQU010440876.1 pos:2791 chunknumber 65700 contains 46 sites
+	-> Printing at chr: JASDQU010442773.1 pos:1426 chunknumber 65800 contains 262 sites
+	-> Printing at chr: JASDQU010444431.1 pos:4579 chunknumber 65900 contains 442 sites
+	-> Printing at chr: JASDQU010452398.1 pos:1705 chunknumber 66000 contains 295 sites
+	-> Printing at chr: JASDQU010456148.1 pos:8360 chunknumber 66100 contains 285 sites
+	-> Printing at chr: JASDQU010457875.1 pos:5715 chunknumber 66200 contains 374 sites
+	-> Printing at chr: JASDQU010459612.1 pos:5404 chunknumber 66300 contains 299 sites
+	-> Printing at chr: JASDQU010460822.1 pos:13454 chunknumber 66400 contains 996 sites
+	-> Printing at chr: JASDQU010462825.1 pos:6626 chunknumber 66500 contains 681 sites
+	-> Printing at chr: JASDQU010464991.1 pos:241 chunknumber 66600 contains 2256 sites
+	-> Printing at chr: JASDQU010466201.1 pos:4733 chunknumber 66700 contains 1250 sites
+	-> Printing at chr: JASDQU010468216.1 pos:8733 chunknumber 66800 contains 307 sites
+	-> Printing at chr: JASDQU010469561.1 pos:5324 chunknumber 66900 contains 361 sites
+	-> Printing at chr: JASDQU010471438.1 pos:7581 chunknumber 67000 contains 276 sites
+	-> Printing at chr: JASDQU010472361.1 pos:8678 chunknumber 67100 contains 369 sites
+	-> Printing at chr: JASDQU010473868.1 pos:7377 chunknumber 67200 contains 262 sites
+No data for chromoId=14661 chromoname=JASDQU010474602.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+PROBS at: JASDQU010475489.1	886
+	-> Printing at chr: JASDQU010475489.1 pos:1198 chunknumber 67300 contains 372 sites
+	-> Printing at chr: JASDQU010476870.1 pos:7493 chunknumber 67400 contains 432 sites
+	-> Printing at chr: JASDQU010478246.1 pos:6508 chunknumber 67500 contains 141 sites
+	-> Printing at chr: JASDQU010480494.1 pos:8026 chunknumber 67600 contains 337 sites
+	-> Printing at chr: JASDQU010481947.1 pos:6800 chunknumber 67700 contains 304 sites
+	-> Printing at chr: JASDQU010483192.1 pos:2294 chunknumber 67800 contains 525 sites
+	-> Printing at chr: JASDQU010485214.1 pos:995 chunknumber 67900 contains 400 sites
+	-> Printing at chr: JASDQU010486962.1 pos:12173 chunknumber 68000 contains 92 sites
+	-> Printing at chr: JASDQU010488538.1 pos:7693 chunknumber 68100 contains 242 sites
+	-> Printing at chr: JASDQU010490877.1 pos:6548 chunknumber 68200 contains 1087 sites
+	-> Printing at chr: JASDQU010493076.1 pos:5664 chunknumber 68300 contains 241 sites
+	-> Printing at chr: JASDQU010494615.1 pos:54 chunknumber 68400 contains 298 sites
+	-> Printing at chr: JASDQU010496722.1 pos:155 chunknumber 68500 contains 1173 sites
+	-> Printing at chr: JASDQU010498367.1 pos:5398 chunknumber 68600 contains 557 sites
+	-> Printing at chr: JASDQU010499786.1 pos:33 chunknumber 68700 contains 1640 sites
+	-> Printing at chr: JASDQU010500524.1 pos:33 chunknumber 68800 contains 4974 sites
+	-> Printing at chr: JASDQU010500672.1 pos:133241 chunknumber 68900 contains 624 sites
+PROBS at: JASDQU010500834.1	148156
+	-> Printing at chr: JASDQU010500849.1 pos:135077 chunknumber 69000 contains 2261 sites
+	-> Printing at chr: JASDQU010501015.1 pos:82499 chunknumber 69100 contains 1079 sites
+	-> Printing at chr: JASDQU010501216.1 pos:745 chunknumber 69200 contains 5646 sites
+	-> Printing at chr: JASDQU010501430.1 pos:89986 chunknumber 69300 contains 72 sites
+	-> Printing at chr: JASDQU010501519.1 pos:62411 chunknumber 69400 contains 2375 sites
+	-> Printing at chr: JASDQU010501654.1 pos:132398 chunknumber 69500 contains 977 sites
+	-> Printing at chr: JASDQU010501780.1 pos:62046 chunknumber 69600 contains 275 sites
+	-> Printing at chr: JASDQU010501974.1 pos:71036 chunknumber 69700 contains 261 sites
+	-> Printing at chr: JASDQU010502226.1 pos:89977 chunknumber 69800 contains 5223 sites
+	-> Printing at chr: JASDQU010502461.1 pos:56423 chunknumber 69900 contains 3554 sites
+	-> Printing at chr: JASDQU010502638.1 pos:46096 chunknumber 70000 contains 1209 sites
+	-> Printing at chr: JASDQU010502835.1 pos:50318 chunknumber 70100 contains 31 sites
+	-> Printing at chr: JASDQU010503058.1 pos:99543 chunknumber 70200 contains 562 sites
+	-> Printing at chr: JASDQU010503299.1 pos:36231 chunknumber 70300 contains 263 sites
+	-> Printing at chr: JASDQU010503400.1 pos:1271 chunknumber 70400 contains 9517 sites
+	-> Printing at chr: JASDQU010503607.1 pos:80 chunknumber 70500 contains 4713 sites
+	-> Printing at chr: JASDQU010503756.1 pos:73686 chunknumber 70600 contains 1490 sites
+	-> Printing at chr: JASDQU010503919.1 pos:28532 chunknumber 70700 contains 2970 sites
+	-> Printing at chr: JASDQU010504141.1 pos:51013 chunknumber 70800 contains 165 sites
+	-> Printing at chr: JASDQU010504236.1 pos:58319 chunknumber 70900 contains 706 sites
+	-> Printing at chr: JASDQU010504461.1 pos:84666 chunknumber 71000 contains 1163 sites
+	-> Printing at chr: JASDQU010504596.1 pos:178410 chunknumber 71100 contains 526 sites
+	-> Printing at chr: JASDQU010504797.1 pos:62035 chunknumber 71200 contains 591 sites
+	-> Printing at chr: JASDQU010504913.1 pos:128187 chunknumber 71300 contains 193 sites
+PROBS at: JASDQU010505240.1	28272
+	-> Printing at chr: JASDQU010505428.1 pos:29655 chunknumber 71400 contains 1866 sites
+	-> Printing at chr: JASDQU010505638.1 pos:152943 chunknumber 71500 contains 236 sites
+	-> Printing at chr: JASDQU010505899.1 pos:79923 chunknumber 71600 contains 512 sites
+	-> Printing at chr: JASDQU010506180.1 pos:328 chunknumber 71700 contains 2435 sites
+	-> Printing at chr: JASDQU010506358.1 pos:37737 chunknumber 71800 contains 890 sites
+	-> Printing at chr: JASDQU010506588.1 pos:1467 chunknumber 71900 contains 8362 sites
+	-> Printing at chr: JASDQU010506766.1 pos:59362 chunknumber 72000 contains 1966 sites
+	-> Printing at chr: JASDQU010507095.1 pos:2147 chunknumber 72100 contains 26299 sites
+	-> Printing at chr: JASDQU010507391.1 pos:57792 chunknumber 72200 contains 279 sites
+	-> Printing at chr: JASDQU010507644.1 pos:17446 chunknumber 72300 contains 506 sites
+	-> Printing at chr: JASDQU010507913.1 pos:33015 chunknumber 72400 contains 528 sites
+	-> Printing at chr: JASDQU010508071.1 pos:45300 chunknumber 72500 contains 1195 sites
+	-> Printing at chr: JASDQU010508234.1 pos:117778 chunknumber 72600 contains 1007 sites
+	-> Printing at chr: JASDQU010508417.1 pos:56283 chunknumber 72700 contains 251 sites
+	-> Printing at chr: JASDQU010508640.1 pos:30271 chunknumber 72800 contains 561 sites
+	-> Printing at chr: JASDQU010508866.1 pos:11477 chunknumber 72900 contains 266 sites
+	-> Printing at chr: JASDQU010509125.1 pos:57739 chunknumber 73000 contains 556 sites
+	-> Printing at chr: JASDQU010509357.1 pos:74969 chunknumber 73100 contains 745 sites
+	-> Printing at chr: JASDQU010509575.1 pos:28178 chunknumber 73200 contains 2032 sites
+	-> Printing at chr: JASDQU010509750.1 pos:957 chunknumber 73300 contains 2526 sites
+	-> Printing at chr: JASDQU010515027.1 pos:7279 chunknumber 73400 contains 962 sites
+PROBS at: JASDQU010515027.1	13464
+	-> Printing at chr: JASDQU010515226.1 pos:79884 chunknumber 73500 contains 580 sites
+	-> Printing at chr: JASDQU010516276.1 pos:8185 chunknumber 73600 contains 1 sites
+	-> Printing at chr: JASDQU010518271.1 pos:4727 chunknumber 73700 contains 258 sites
+	-> Printing at chr: JASDQU010520516.1 pos:1978 chunknumber 73800 contains 2481 sites
+	-> Printing at chr: JASDQU010522685.1 pos:6948 chunknumber 73900 contains 357 sites
+	-> Printing at chr: JASDQU010524498.1 pos:1822 chunknumber 74000 contains 676 sites
+	-> Printing at chr: JASDQU010526182.1 pos:632 chunknumber 74100 contains 992 sites
+	-> Printing at chr: JASDQU010527435.1 pos:7942 chunknumber 74200 contains 140 sites
+	-> Printing at chr: JASDQU010529921.1 pos:6488 chunknumber 74300 contains 133 sites
+	-> Printing at chr: JASDQU010532443.1 pos:2056 chunknumber 74400 contains 751 sites
+No data for chromoId=16379 chromoname=JASDQU010534476.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010534583.1 pos:12539 chunknumber 74500 contains 140 sites
+	-> Printing at chr: JASDQU010537353.1 pos:2390 chunknumber 74600 contains 641 sites
+	-> Printing at chr: JASDQU010538876.1 pos:1093 chunknumber 74700 contains 2832 sites
+	-> Printing at chr: JASDQU010541661.1 pos:6063 chunknumber 74800 contains 246 sites
+	-> Printing at chr: JASDQU010544104.1 pos:4020 chunknumber 74900 contains 1142 sites
+	-> Printing at chr: JASDQU010545654.1 pos:5658 chunknumber 75000 contains 383 sites
+	-> Printing at chr: JASDQU010547711.1 pos:7383 chunknumber 75100 contains 231 sites
+	-> Printing at chr: JASDQU010550137.1 pos:5316 chunknumber 75200 contains 598 sites
+	-> Printing at chr: JASDQU010552507.1 pos:1 chunknumber 75300 contains 2568 sites
+	-> Printing at chr: JASDQU010554463.1 pos:6171 chunknumber 75400 contains 199 sites
+PROBS at: JASDQU010554530.1	1460
+	-> Printing at chr: JASDQU010557054.1 pos:6324 chunknumber 75500 contains 1113 sites
+No data for chromoId=16699 chromoname=JASDQU010559707.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010559851.1 pos:5354 chunknumber 75600 contains 371 sites
+	-> Printing at chr: JASDQU010560192.1 pos:72175 chunknumber 75700 contains 885 sites
+	-> Printing at chr: JASDQU010564430.1 pos:3007 chunknumber 75800 contains 274 sites
+	-> Printing at chr: JASDQU010568205.1 pos:1833 chunknumber 75900 contains 688 sites
+	-> Printing at chr: JASDQU010571980.1 pos:53 chunknumber 76000 contains 2426 sites
+	-> Printing at chr: JASDQU010574745.1 pos:6197 chunknumber 76100 contains 35 sites
+	-> Printing at chr: JASDQU010576812.1 pos:1 chunknumber 76200 contains 1096 sites
+	-> Printing at chr: JASDQU010578654.1 pos:2035 chunknumber 76300 contains 1537 sites
+	-> Printing at chr: JASDQU010585321.1 pos:111365 chunknumber 76400 contains 1206 sites
+	-> Printing at chr: JASDQU010585484.1 pos:93248 chunknumber 76500 contains 2563 sites
+	-> Printing at chr: JASDQU010585639.1 pos:86168 chunknumber 76600 contains 1615 sites
+	-> Printing at chr: JASDQU010585778.1 pos:78570 chunknumber 76700 contains 1651 sites
+	-> Printing at chr: JASDQU010585920.1 pos:105649 chunknumber 76800 contains 1076 sites
+	-> Printing at chr: JASDQU010585996.1 pos:96677 chunknumber 76900 contains 451 sites
+	-> Printing at chr: JASDQU010586143.1 pos:104892 chunknumber 77000 contains 216 sites
+	-> Printing at chr: JASDQU010586312.1 pos:4917 chunknumber 77100 contains 3640 sites
+	-> Printing at chr: JASDQU010586469.1 pos:100535 chunknumber 77200 contains 252 sites
+	-> Printing at chr: JASDQU010586779.1 pos:82054 chunknumber 77300 contains 694 sites
+	-> Printing at chr: JASDQU010586968.1 pos:2 chunknumber 77400 contains 17563 sites
+	-> Printing at chr: JASDQU010587135.1 pos:47610 chunknumber 77500 contains 371 sites
+	-> Printing at chr: JASDQU010587271.1 pos:46603 chunknumber 77600 contains 331 sites
+	-> Printing at chr: JASDQU010587510.1 pos:121586 chunknumber 77700 contains 145 sites
+	-> Printing at chr: JASDQU010587792.1 pos:1176 chunknumber 77800 contains 19499 sites
+	-> Printing at chr: JASDQU010587938.1 pos:32715 chunknumber 77900 contains 1873 sites
+	-> Printing at chr: JASDQU010588196.1 pos:88542 chunknumber 78000 contains 95 sites
+	-> Printing at chr: JASDQU010588367.1 pos:115479 chunknumber 78100 contains 405 sites
+	-> Printing at chr: JASDQU010588655.1 pos:59176 chunknumber 78200 contains 2394 sites
+	-> Printing at chr: JASDQU010588800.1 pos:420 chunknumber 78300 contains 9659 sites
+	-> Printing at chr: JASDQU010588996.1 pos:77491 chunknumber 78400 contains 1608 sites
+	-> Printing at chr: JASDQU010589201.1 pos:18266 chunknumber 78500 contains 3126 sites
+	-> Printing at chr: JASDQU010589457.1 pos:405 chunknumber 78600 contains 2287 sites
+	-> Printing at chr: JASDQU010589645.1 pos:47259 chunknumber 78700 contains 719 sites
+	-> Printing at chr: JASDQU010589830.1 pos:65516 chunknumber 78800 contains 183 sites
+	-> Printing at chr: JASDQU010589961.1 pos:51779 chunknumber 78900 contains 9465 sites
+	-> Printing at chr: JASDQU010590129.1 pos:34353 chunknumber 79000 contains 1235 sites
+	-> Printing at chr: JASDQU010590231.1 pos:61627 chunknumber 79100 contains 4706 sites
+	-> Printing at chr: JASDQU010591953.1 pos:317 chunknumber 79200 contains 1651 sites
+	-> Printing at chr: JASDQU010594457.1 pos:9898 chunknumber 79300 contains 378 sites
+	-> Printing at chr: JASDQU010596095.1 pos:4775 chunknumber 79400 contains 529 sites
+	-> Printing at chr: JASDQU010599009.1 pos:2452 chunknumber 79500 contains 2167 sites
+	-> Printing at chr: JASDQU010600988.1 pos:4779 chunknumber 79600 contains 196 sites
+	-> Printing at chr: JASDQU010603807.1 pos:2748 chunknumber 79700 contains 325 sites
+	-> Printing at chr: JASDQU010605993.1 pos:6301 chunknumber 79800 contains 728 sites
+	-> Printing at chr: JASDQU010608614.1 pos:3652 chunknumber 79900 contains 368 sites
+	-> Printing at chr: JASDQU010611459.1 pos:1879 chunknumber 80000 contains 1989 sites
+	-> Printing at chr: JASDQU010613805.1 pos:6211 chunknumber 80100 contains 222 sites
+No data for chromoId=17802 chromoname=JASDQU010614414.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010616616.1 pos:793 chunknumber 80200 contains 1212 sites
+	-> Printing at chr: JASDQU010619674.1 pos:722 chunknumber 80300 contains 836 sites
+	-> Printing at chr: JASDQU010621915.1 pos:5534 chunknumber 80400 contains 108 sites
+	-> Printing at chr: JASDQU010624382.1 pos:1259 chunknumber 80500 contains 710 sites
+	-> Printing at chr: JASDQU010627123.1 pos:3386 chunknumber 80600 contains 362 sites
+	-> Printing at chr: JASDQU010631550.1 pos:448 chunknumber 80700 contains 527 sites
+	-> Printing at chr: JASDQU010634527.1 pos:1321 chunknumber 80800 contains 315 sites
+	-> Printing at chr: JASDQU010638673.1 pos:2798 chunknumber 80900 contains 115 sites
+No data for chromoId=18062 chromoname=JASDQU010641770.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010644154.1 pos:3648 chunknumber 81000 contains 12 sites
+PROBS at: JASDQU010646316.1	693
+	-> Printing at chr: JASDQU010646877.1 pos:1 chunknumber 81100 contains 552 sites
+	-> Printing at chr: JASDQU010653599.1 pos:716 chunknumber 81200 contains 449 sites
+	-> Printing at chr: JASDQU010658094.1 pos:1604 chunknumber 81300 contains 554 sites
+	-> Printing at chr: JASDQU010661694.1 pos:418 chunknumber 81400 contains 1677 sites
+	-> Printing at chr: JASDQU010665567.1 pos:3487 chunknumber 81500 contains 473 sites
+	-> Printing at chr: JASDQU010670370.1 pos:4421 chunknumber 81600 contains 133 sites
+	-> Printing at chr: JASDQU010675113.1 pos:663 chunknumber 81700 contains 332 sites
+	-> Printing at chr: JASDQU010678384.1 pos:2634 chunknumber 81800 contains 80 sites
+	-> Printing at chr: JASDQU010680387.1 pos:42822 chunknumber 81900 contains 16240 sites
+	-> Printing at chr: JASDQU010680549.1 pos:35923 chunknumber 82000 contains 419 sites
+	-> Printing at chr: JASDQU010680692.1 pos:35923 chunknumber 82100 contains 252 sites
+PROBS at: JASDQU010680729.1	61607
+PROBS at: JASDQU010680868.1	37904
+	-> Printing at chr: JASDQU010680903.1 pos:42165 chunknumber 82200 contains 452 sites
+	-> Printing at chr: JASDQU010681069.1 pos:33686 chunknumber 82300 contains 2323 sites
+	-> Printing at chr: JASDQU010681261.1 pos:68964 chunknumber 82400 contains 1390 sites
+	-> Printing at chr: JASDQU010681360.1 pos:34554 chunknumber 82500 contains 7074 sites
+	-> Printing at chr: JASDQU010681487.1 pos:96346 chunknumber 82600 contains 783 sites
+	-> Printing at chr: JASDQU010681700.1 pos:113365 chunknumber 82700 contains 577 sites
+	-> Printing at chr: JASDQU010681859.1 pos:46515 chunknumber 82800 contains 732 sites
+	-> Printing at chr: JASDQU010681999.1 pos:76499 chunknumber 82900 contains 1434 sites
+PROBS at: JASDQU010682006.1	24222
+	-> Printing at chr: JASDQU010682121.1 pos:184804 chunknumber 83000 contains 411 sites
+PROBS at: JASDQU010682362.1	86572
+	-> Printing at chr: JASDQU010682376.1 pos:145619 chunknumber 83100 contains 278 sites
+	-> Printing at chr: JASDQU010682514.1 pos:160143 chunknumber 83200 contains 479 sites
+PROBS at: JASDQU010682573.1	47840
+PROBS at: JASDQU010682605.1	72649
+	-> Printing at chr: JASDQU010682692.1 pos:43274 chunknumber 83300 contains 414 sites
+	-> Printing at chr: JASDQU010682830.1 pos:110438 chunknumber 83400 contains 490 sites
+	-> Printing at chr: JASDQU010683147.1 pos:89201 chunknumber 83500 contains 202 sites
+	-> Printing at chr: JASDQU010683350.1 pos:42537 chunknumber 83600 contains 240 sites
+	-> Printing at chr: JASDQU010683578.1 pos:52 chunknumber 83700 contains 7796 sites
+	-> Printing at chr: JASDQU010683831.1 pos:385 chunknumber 83800 contains 2747 sites
+	-> Printing at chr: JASDQU010684097.1 pos:27488 chunknumber 83900 contains 748 sites
+	-> Printing at chr: JASDQU010684265.1 pos:2922 chunknumber 84000 contains 19903 sites
+	-> Printing at chr: JASDQU010684542.1 pos:718 chunknumber 84100 contains 7857 sites
+	-> Printing at chr: JASDQU010684749.1 pos:50453 chunknumber 84200 contains 468 sites
+	-> Printing at chr: JASDQU010684902.1 pos:62578 chunknumber 84300 contains 658 sites
+	-> Printing at chr: JASDQU010685353.1 pos:30122 chunknumber 84400 contains 1621 sites
+	-> Printing at chr: JASDQU010685545.1 pos:40074 chunknumber 84500 contains 2354 sites
+PROBS at: JASDQU010685712.1	69471
+	-> Printing at chr: JASDQU010685762.1 pos:1 chunknumber 84600 contains 10373 sites
+	-> Printing at chr: JASDQU010686032.1 pos:67720 chunknumber 84700 contains 278 sites
+	-> Printing at chr: JASDQU010686242.1 pos:60737 chunknumber 84800 contains 97 sites
+	-> Printing at chr: JASDQU010686532.1 pos:2491 chunknumber 84900 contains 9701 sites
+	-> Printing at chr: JASDQU010686658.1 pos:71648 chunknumber 85000 contains 382 sites
+	-> Printing at chr: JASDQU010686936.1 pos:67795 chunknumber 85100 contains 516 sites
+	-> Printing at chr: JASDQU010687142.1 pos:31 chunknumber 85200 contains 8939 sites
+	-> Printing at chr: JASDQU010687361.1 pos:69563 chunknumber 85300 contains 320 sites
+PROBS at: JASDQU010687535.1	6778
+	-> Printing at chr: JASDQU010687536.1 pos:2591 chunknumber 85400 contains 1270 sites
+	-> Printing at chr: JASDQU010687730.1 pos:1463 chunknumber 85500 contains 7160 sites
+	-> Printing at chr: JASDQU010687907.1 pos:35867 chunknumber 85600 contains 3091 sites
+	-> Printing at chr: JASDQU010688124.1 pos:3943 chunknumber 85700 contains 7844 sites
+	-> Printing at chr: JASDQU010688409.1 pos:45223 chunknumber 85800 contains 582 sites
+	-> Printing at chr: JASDQU010688664.1 pos:4107 chunknumber 85900 contains 20466 sites
+	-> Printing at chr: JASDQU010688908.1 pos:45255 chunknumber 86000 contains 1639 sites
+PROBS at: JASDQU010688912.1	45701
+	-> Printing at chr: JASDQU010689136.1 pos:1 chunknumber 86100 contains 4758 sites
+	-> Printing at chr: JASDQU010689431.1 pos:117541 chunknumber 86200 contains 278 sites
+	-> Printing at chr: JASDQU010689626.1 pos:50081 chunknumber 86300 contains 88 sites
+	-> Printing at chr: JASDQU010689840.1 pos:64270 chunknumber 86400 contains 470 sites
+	-> Printing at chr: JASDQU010690009.1 pos:36641 chunknumber 86500 contains 946 sites
+	-> Printing at chr: JASDQU010691460.1 pos:735 chunknumber 86600 contains 106 sites
+	-> Printing at chr: JASDQU010697448.1 pos:441 chunknumber 86700 contains 2349 sites
+	-> Printing at chr: JASDQU010702707.1 pos:1335 chunknumber 86800 contains 93 sites
+	-> Printing at chr: JASDQU010707838.1 pos:3081 chunknumber 86900 contains 104 sites
+	-> Printing at chr: JASDQU010710323.1 pos:878 chunknumber 87000 contains 5736 sites
+	-> Printing at chr: JASDQU010710684.1 pos:3235 chunknumber 87100 contains 299 sites
+	-> Printing at chr: JASDQU010711051.1 pos:25343 chunknumber 87200 contains 486 sites
+	-> Printing at chr: JASDQU010711371.1 pos:28271 chunknumber 87300 contains 1061 sites
+	-> Printing at chr: JASDQU010711698.1 pos:15074 chunknumber 87400 contains 815 sites
+	-> Printing at chr: JASDQU010712052.1 pos:15748 chunknumber 87500 contains 2680 sites
+PROBS at: JASDQU010712303.1	39678
+PROBS at: JASDQU010712341.1	34935
+	-> Printing at chr: JASDQU010712354.1 pos:17385 chunknumber 87600 contains 568 sites
+	-> Printing at chr: JASDQU010712762.1 pos:24421 chunknumber 87700 contains 1685 sites
+	-> Printing at chr: JASDQU010713276.1 pos:17634 chunknumber 87800 contains 190 sites
+	-> Printing at chr: JASDQU010713710.1 pos:31179 chunknumber 87900 contains 2050 sites
+	-> Printing at chr: JASDQU010713991.1 pos:871 chunknumber 88000 contains 7372 sites
+	-> Printing at chr: JASDQU010714392.1 pos:54224 chunknumber 88100 contains 235 sites
+	-> Printing at chr: JASDQU010714704.1 pos:171 chunknumber 88200 contains 2634 sites
+	-> Printing at chr: JASDQU010715173.1 pos:1443 chunknumber 88300 contains 102 sites
+	-> Printing at chr: JASDQU010721004.1 pos:386 chunknumber 88400 contains 1056 sites
+	-> Printing at chr: JASDQU010726233.1 pos:4018 chunknumber 88500 contains 143 sites
+	-> Printing at chr: JASDQU010732596.1 pos:2089 chunknumber 88600 contains 299 sites
+	-> Printing at chr: JASDQU010735188.1 pos:62839 chunknumber 88700 contains 715 sites
+	-> Printing at chr: JASDQU010735300.1 pos:162981 chunknumber 88800 contains 6694 sites
+	-> Printing at chr: JASDQU010735365.1 pos:254924 chunknumber 88900 contains 480 sites
+	-> Printing at chr: JASDQU010735428.1 pos:262593 chunknumber 89000 contains 314 sites
+	-> Printing at chr: JASDQU010735476.1 pos:1063749 chunknumber 89100 contains 427 sites
+	-> Printing at chr: JASDQU010735522.1 pos:386431 chunknumber 89200 contains 1906 sites
+	-> Printing at chr: JASDQU010735576.1 pos:40036 chunknumber 89300 contains 30416 sites
+	-> Printing at chr: JASDQU010735640.1 pos:254487 chunknumber 89400 contains 2798 sites
+PROBS at: JASDQU010735641.1	211786
+	-> Printing at chr: JASDQU010735684.1 pos:312296 chunknumber 89500 contains 2472 sites
+PROBS at: JASDQU010735725.1	178321
+	-> Printing at chr: JASDQU010735756.1 pos:345819 chunknumber 89600 contains 263 sites
+	-> Printing at chr: JASDQU010735812.1 pos:418390 chunknumber 89700 contains 412 sites
+	-> Printing at chr: JASDQU010735866.1 pos:290212 chunknumber 89800 contains 440 sites
+PROBS at: JASDQU010735914.1	137980
+	-> Printing at chr: JASDQU010735922.1 pos:199114 chunknumber 89900 contains 588 sites
+	-> Printing at chr: JASDQU010735977.1 pos:564834 chunknumber 90000 contains 276 sites
+	-> Printing at chr: JASDQU010736021.1 pos:431073 chunknumber 90100 contains 1028 sites
+	-> Printing at chr: JASDQU010736071.1 pos:575376 chunknumber 90200 contains 6122 sites
+	-> Printing at chr: JASDQU010736128.1 pos:157 chunknumber 90300 contains 2774 sites
+	-> Printing at chr: JASDQU010736171.1 pos:263794 chunknumber 90400 contains 854 sites
+	-> Printing at chr: JASDQU010736218.1 pos:528355 chunknumber 90500 contains 1458 sites
+	-> Printing at chr: JASDQU010736277.1 pos:265192 chunknumber 90600 contains 48047 sites
+	-> Printing at chr: JASDQU010736322.1 pos:119653 chunknumber 90700 contains 26962 sites
+PROBS at: JASDQU010736342.1	168325
+	-> Printing at chr: JASDQU010736360.1 pos:275016 chunknumber 90800 contains 14521 sites
+	-> Printing at chr: JASDQU010736401.1 pos:366717 chunknumber 90900 contains 208 sites
+	-> Printing at chr: JASDQU010736450.1 pos:147339 chunknumber 91000 contains 1192 sites
+	-> Printing at chr: JASDQU010736504.1 pos:547894 chunknumber 91100 contains 7367 sites
+	-> Printing at chr: JASDQU010736582.1 pos:206169 chunknumber 91200 contains 3031 sites
+	-> Printing at chr: JASDQU010736633.1 pos:95978 chunknumber 91300 contains 318 sites
+	-> Printing at chr: JASDQU010736680.1 pos:613602 chunknumber 91400 contains 474 sites
+	-> Printing at chr: JASDQU010736747.1 pos:1012 chunknumber 91500 contains 6292 sites
+	-> Printing at chr: JASDQU010736810.1 pos:74369 chunknumber 91600 contains 299 sites
+	-> Printing at chr: JASDQU010736857.1 pos:2775 chunknumber 91700 contains 63997 sites
+	-> Printing at chr: JASDQU010736920.1 pos:128941 chunknumber 91800 contains 1729 sites
+	-> Printing at chr: JASDQU010736984.1 pos:197318 chunknumber 91900 contains 695 sites
+	-> Printing at chr: JASDQU010737047.1 pos:255623 chunknumber 92000 contains 4077 sites
+PROBS at: JASDQU010737072.1	241266
+	-> Printing at chr: JASDQU010737108.1 pos:172434 chunknumber 92100 contains 174 sites
+PROBS at: JASDQU010737170.1	82002
+PROBS at: JASDQU010737173.1	209063
+	-> Printing at chr: JASDQU010737194.1 pos:103016 chunknumber 92200 contains 599 sites
+	-> Printing at chr: JASDQU010737249.1 pos:119391 chunknumber 92300 contains 43071 sites
+	-> Printing at chr: JASDQU010737324.1 pos:638 chunknumber 92400 contains 30517 sites
+	-> Printing at chr: JASDQU010737356.1 pos:314170 chunknumber 92500 contains 3667 sites
+	-> Printing at chr: JASDQU010737414.1 pos:626674 chunknumber 92600 contains 27 sites
+	-> Printing at chr: JASDQU010737481.1 pos:199368 chunknumber 92700 contains 1686 sites
+	-> Printing at chr: JASDQU010737536.1 pos:2 chunknumber 92800 contains 91996 sites
+	-> Printing at chr: JASDQU010737611.1 pos:107536 chunknumber 92900 contains 5391 sites
+	-> Printing at chr: JASDQU010737656.1 pos:1 chunknumber 93000 contains 47648 sites
+	-> Printing at chr: JASDQU010737718.1 pos:425430 chunknumber 93100 contains 1118 sites
+	-> Printing at chr: JASDQU010737764.1 pos:160974 chunknumber 93200 contains 728 sites
+	-> Printing at chr: JASDQU010737824.1 pos:182925 chunknumber 93300 contains 603 sites
+	-> Printing at chr: JASDQU010737874.1 pos:313314 chunknumber 93400 contains 1196 sites
+	-> Printing at chr: JASDQU010737945.1 pos:243305 chunknumber 93500 contains 116 sites
+	-> Printing at chr: JASDQU010738001.1 pos:241350 chunknumber 93600 contains 417 sites
+	-> Printing at chr: JASDQU010738054.1 pos:215490 chunknumber 93700 contains 355 sites
+	-> Printing at chr: JASDQU010738149.1 pos:9602 chunknumber 93800 contains 27460 sites
+	-> Printing at chr: JASDQU010738217.1 pos:170875 chunknumber 93900 contains 2102 sites
+	-> Printing at chr: JASDQU010738317.1 pos:31 chunknumber 94000 contains 55523 sites
+	-> Printing at chr: JASDQU010738385.1 pos:342 chunknumber 94100 contains 40422 sites
+	-> Printing at chr: JASDQU010738434.1 pos:27848 chunknumber 94200 contains 457 sites
+	-> Printing at chr: JASDQU010738494.1 pos:251 chunknumber 94300 contains 6319 sites
+	-> Printing at chr: JASDQU010738561.1 pos:531 chunknumber 94400 contains 13360 sites
+	-> Printing at chr: JASDQU010738626.1 pos:3690 chunknumber 94500 contains 16734 sites
+	-> Printing at chr: JASDQU010738693.1 pos:148809 chunknumber 94600 contains 21985 sites
+PROBS at: JASDQU010738712.1	176595
+	-> Printing at chr: JASDQU010738739.1 pos:78858 chunknumber 94700 contains 49570 sites
+	-> Printing at chr: JASDQU010738802.1 pos:202 chunknumber 94800 contains 18960 sites
+	-> Printing at chr: JASDQU010738852.1 pos:23959 chunknumber 94900 contains 11055 sites
+	-> Printing at chr: JASDQU010738897.1 pos:82747 chunknumber 95000 contains 8169 sites
+	-> Printing at chr: JASDQU010738960.1 pos:173668 chunknumber 95100 contains 1893 sites
+	-> Printing at chr: JASDQU010739021.1 pos:285380 chunknumber 95200 contains 286 sites
+	-> Printing at chr: JASDQU010739095.1 pos:219839 chunknumber 95300 contains 820 sites
+	-> Printing at chr: JASDQU010739153.1 pos:1838 chunknumber 95400 contains 12715 sites
+PROBS at: JASDQU010739154.1	346958
+	-> Printing at chr: JASDQU010739186.1 pos:567487 chunknumber 95500 contains 139 sites
+	-> Printing at chr: JASDQU010739242.1 pos:118792 chunknumber 95600 contains 835 sites
+PROBS at: JASDQU010739276.1	403070
+	-> Printing at chr: JASDQU010739319.1 pos:288133 chunknumber 95700 contains 7094 sites
+	-> Printing at chr: JASDQU010739402.1 pos:5709 chunknumber 95800 contains 62149 sites
+	-> Printing at chr: JASDQU010739443.1 pos:109 chunknumber 95900 contains 13552 sites
+	-> Printing at chr: JASDQU010739508.1 pos:154176 chunknumber 96000 contains 159 sites
+	-> Printing at chr: JASDQU010739582.1 pos:299260 chunknumber 96100 contains 263 sites
+PROBS at: JASDQU010739664.1	261810
+	-> Printing at chr: JASDQU010739669.1 pos:112138 chunknumber 96200 contains 23492 sites
+	-> Printing at chr: JASDQU010739726.1 pos:157814 chunknumber 96300 contains 1324 sites
+	-> Printing at chr: JASDQU010739779.1 pos:212308 chunknumber 96400 contains 10817 sites
+	-> Printing at chr: JASDQU010739848.1 pos:250504 chunknumber 96500 contains 726 sites
+	-> Printing at chr: JASDQU010739942.1 pos:75827 chunknumber 96600 contains 31639 sites
+	-> Printing at chr: JASDQU010739997.1 pos:63598 chunknumber 96700 contains 1416 sites
+No data for chromoId=21376 chromoname=JASDQU010741860.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010743383.1 pos:945 chunknumber 96800 contains 431 sites
+	-> Printing at chr: JASDQU010749617.1 pos:703 chunknumber 96900 contains 386 sites
+	-> Printing at chr: JASDQU010750410.1 pos:66195 chunknumber 97000 contains 179 sites
+	-> Printing at chr: JASDQU010750670.1 pos:84248 chunknumber 97100 contains 5100 sites
+	-> Printing at chr: JASDQU010751035.1 pos:26709 chunknumber 97200 contains 47 sites
+	-> Printing at chr: JASDQU010751289.1 pos:57289 chunknumber 97300 contains 240 sites
+	-> Printing at chr: JASDQU010751569.1 pos:44130 chunknumber 97400 contains 1109 sites
+	-> Printing at chr: JASDQU010752012.1 pos:41124 chunknumber 97500 contains 846 sites
+	-> Printing at chr: JASDQU010752212.1 pos:680 chunknumber 97600 contains 9448 sites
+	-> Printing at chr: JASDQU010752486.1 pos:904 chunknumber 97700 contains 12653 sites
+	-> Printing at chr: JASDQU010752774.1 pos:34663 chunknumber 97800 contains 301 sites
+PROBS at: JASDQU010752943.1	60283
+	-> Printing at chr: JASDQU010752973.1 pos:395 chunknumber 97900 contains 19143 sites
+	-> Printing at chr: JASDQU010753290.1 pos:3421 chunknumber 98000 contains 1670 sites
+	-> Printing at chr: JASDQU010753649.1 pos:9722 chunknumber 98100 contains 6920 sites
+	-> Printing at chr: JASDQU010753857.1 pos:51952 chunknumber 98200 contains 531 sites
+	-> Printing at chr: JASDQU010754033.1 pos:19314 chunknumber 98300 contains 2297 sites
+PROBS at: JASDQU010754170.1	13786
+	-> Printing at chr: JASDQU010754332.1 pos:51069 chunknumber 98400 contains 2151 sites
+	-> Printing at chr: JASDQU010754565.1 pos:61680 chunknumber 98500 contains 928 sites
+	-> Printing at chr: JASDQU010754939.1 pos:124 chunknumber 98600 contains 11263 sites
+	-> Printing at chr: JASDQU010755266.1 pos:2184 chunknumber 98700 contains 1083 sites
+	-> Printing at chr: JASDQU010759061.1 pos:1762 chunknumber 98800 contains 33 sites
+	-> Printing at chr: JASDQU010765090.1 pos:2045 chunknumber 98900 contains 109 sites
+	-> Printing at chr: JASDQU010774088.1 pos:1365 chunknumber 99000 contains 293 sites
+	-> Printing at chr: JASDQU010780678.1 pos:3422 chunknumber 99100 contains 247 sites
+No data for chromoId=21969 chromoname=JASDQU010782718.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010790022.1 pos:18 chunknumber 99200 contains 24305 sites
+	-> Printing at chr: JASDQU010790081.1 pos:56 chunknumber 99300 contains 34269 sites
+	-> Printing at chr: JASDQU010790141.1 pos:79830 chunknumber 99400 contains 3304 sites
+	-> Printing at chr: JASDQU010790211.1 pos:255277 chunknumber 99500 contains 16476 sites
+	-> Printing at chr: JASDQU010791114.1 pos:3327 chunknumber 99600 contains 729 sites
+	-> Printing at chr: JASDQU010793056.1 pos:227 chunknumber 99700 contains 982 sites
+No data for chromoId=22110 chromoname=JASDQU010793209.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010796836.1 pos:1865 chunknumber 99800 contains 278 sites
+	-> Printing at chr: JASDQU010800783.1 pos:3179 chunknumber 99900 contains 197 sites
+	-> Printing at chr: JASDQU010807799.1 pos:1278 chunknumber 100000 contains 14 sites
+	-> Printing at chr: JASDQU010812503.1 pos:3517 chunknumber 100100 contains 152 sites
+	-> Printing at chr: JASDQU010815322.1 pos:36727 chunknumber 100200 contains 1107 sites
+	-> Printing at chr: JASDQU010815612.1 pos:146167 chunknumber 100300 contains 2040 sites
+	-> Printing at chr: JASDQU010815836.1 pos:34428 chunknumber 100400 contains 895 sites
+	-> Printing at chr: JASDQU010816145.1 pos:2401 chunknumber 100500 contains 4464 sites
+	-> Printing at chr: JASDQU010816357.1 pos:28074 chunknumber 100600 contains 901 sites
+	-> Printing at chr: JASDQU010816559.1 pos:26182 chunknumber 100700 contains 81 sites
+	-> Printing at chr: JASDQU010816755.1 pos:60166 chunknumber 100800 contains 253 sites
+	-> Printing at chr: JASDQU010817006.1 pos:67664 chunknumber 100900 contains 1177 sites
+	-> Printing at chr: JASDQU010817345.1 pos:66455 chunknumber 101000 contains 1121 sites
+	-> Printing at chr: JASDQU010817629.1 pos:1296 chunknumber 101100 contains 3606 sites
+	-> Printing at chr: JASDQU010817849.1 pos:25168 chunknumber 101200 contains 288 sites
+	-> Printing at chr: JASDQU010818076.1 pos:32519 chunknumber 101300 contains 926 sites
+	-> Printing at chr: JASDQU010818241.1 pos:35353 chunknumber 101400 contains 18 sites
+	-> Printing at chr: JASDQU010818522.1 pos:89810 chunknumber 101500 contains 342 sites
+	-> Printing at chr: JASDQU010818656.1 pos:1 chunknumber 101600 contains 11977 sites
+	-> Printing at chr: JASDQU010818869.1 pos:7 chunknumber 101700 contains 6178 sites
+	-> Printing at chr: JASDQU010819070.1 pos:86107 chunknumber 101800 contains 449 sites
+	-> Printing at chr: JASDQU010819269.1 pos:34445 chunknumber 101900 contains 679 sites
+	-> Printing at chr: JASDQU010819536.1 pos:20375 chunknumber 102000 contains 2215 sites
+	-> Printing at chr: JASDQU010819784.1 pos:48800 chunknumber 102100 contains 501 sites
+	-> Printing at chr: JASDQU010820042.1 pos:61044 chunknumber 102200 contains 245 sites
+	-> Printing at chr: JASDQU010824257.1 pos:1 chunknumber 102300 contains 499 sites
+No data for chromoId=22743 chromoname=JASDQU010827241.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010836627.1 pos:85 chunknumber 102400 contains 1477 sites
+	-> Printing at chr: JASDQU010842148.1 pos:3343 chunknumber 102500 contains 135 sites
+	-> Printing at chr: JASDQU010846562.1 pos:1249 chunknumber 102600 contains 104 sites
+	-> Printing at chr: JASDQU010848182.1 pos:1083 chunknumber 102700 contains 3348 sites
+PROBS at: JASDQU010849465.1	4059
+	-> Printing at chr: JASDQU010852827.1 pos:5 chunknumber 102800 contains 1185 sites
+	-> Printing at chr: JASDQU010860389.1 pos:3075 chunknumber 102900 contains 18 sites
+	-> Printing at chr: JASDQU010866051.1 pos:3213 chunknumber 103000 contains 136 sites
+No data for chromoId=22973 chromoname=JASDQU010869539.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010871738.1 pos:251 chunknumber 103100 contains 632 sites
+	-> Printing at chr: JASDQU010877471.1 pos:247 chunknumber 103200 contains 1 sites
+	-> Printing at chr: JASDQU010880445.1 pos:13558 chunknumber 103300 contains 268 sites
+	-> Printing at chr: JASDQU010880713.1 pos:33246 chunknumber 103400 contains 18 sites
+PROBS at: JASDQU010880819.1	3673
+	-> Printing at chr: JASDQU010881033.1 pos:56580 chunknumber 103500 contains 199 sites
+	-> Printing at chr: JASDQU010881354.1 pos:14847 chunknumber 103600 contains 1407 sites
+	-> Printing at chr: JASDQU010881707.1 pos:29983 chunknumber 103700 contains 128 sites
+	-> Printing at chr: JASDQU010881974.1 pos:43091 chunknumber 103800 contains 1169 sites
+	-> Printing at chr: JASDQU010882240.1 pos:30431 chunknumber 103900 contains 626 sites
+	-> Printing at chr: JASDQU010882432.1 pos:4872 chunknumber 104000 contains 8605 sites
+	-> Printing at chr: JASDQU010882680.1 pos:64478 chunknumber 104100 contains 1390 sites
+PROBS at: JASDQU010882752.1	32750
+	-> Printing at chr: JASDQU010882888.1 pos:33266 chunknumber 104200 contains 256 sites
+	-> Printing at chr: JASDQU010883174.1 pos:80339 chunknumber 104300 contains 389 sites
+	-> Printing at chr: JASDQU010883362.1 pos:32441 chunknumber 104400 contains 7784 sites
+	-> Printing at chr: JASDQU010883650.1 pos:56479 chunknumber 104500 contains 282 sites
+	-> Printing at chr: JASDQU010883908.1 pos:27262 chunknumber 104600 contains 987 sites
+	-> Printing at chr: JASDQU010884330.1 pos:54045 chunknumber 104700 contains 616 sites
+	-> Printing at chr: JASDQU010884654.1 pos:56582 chunknumber 104800 contains 220 sites
+	-> Printing at chr: JASDQU010884853.1 pos:17912 chunknumber 104900 contains 2429 sites
+	-> Printing at chr: JASDQU010886530.1 pos:1987 chunknumber 105000 contains 130 sites
+	-> Printing at chr: JASDQU010895612.1 pos:3076 chunknumber 105100 contains 146 sites
+	-> Printing at chr: JASDQU010901002.1 pos:326 chunknumber 105200 contains 800 sites
+	-> Printing at chr: JASDQU010903735.1 pos:5953 chunknumber 105300 contains 37 sites
+	-> Printing at chr: JASDQU010908013.1 pos:708 chunknumber 105400 contains 544 sites
+	-> Printing at chr: JASDQU010914507.1 pos:1407 chunknumber 105500 contains 76 sites
+	-> Printing at chr: JASDQU010922573.1 pos:2828 chunknumber 105600 contains 137 sites
+	-> Printing at chr: JASDQU010930333.1 pos:483 chunknumber 105700 contains 104 sites
+PROBS at: JASDQU010937244.1	1440
+	-> Printing at chr: JASDQU010938779.1 pos:98 chunknumber 105800 contains 1073 sites
+	-> Printing at chr: JASDQU010944899.1 pos:138 chunknumber 105900 contains 1077 sites
+	-> Printing at chr: JASDQU010945390.1 pos:35089 chunknumber 106000 contains 391 sites
+	-> Printing at chr: JASDQU010945712.1 pos:34072 chunknumber 106100 contains 43 sites
+	-> Printing at chr: JASDQU010946034.1 pos:42617 chunknumber 106200 contains 439 sites
+	-> Printing at chr: JASDQU010946341.1 pos:27041 chunknumber 106300 contains 139 sites
+	-> Printing at chr: JASDQU010946711.1 pos:16205 chunknumber 106400 contains 4274 sites
+	-> Printing at chr: JASDQU010946975.1 pos:1360 chunknumber 106500 contains 3476 sites
+	-> Printing at chr: JASDQU010947304.1 pos:32239 chunknumber 106600 contains 203 sites
+	-> Printing at chr: JASDQU010947530.1 pos:32158 chunknumber 106700 contains 411 sites
+	-> Printing at chr: JASDQU010947732.1 pos:81304 chunknumber 106800 contains 1300 sites
+	-> Printing at chr: JASDQU010948051.1 pos:10248 chunknumber 106900 contains 7338 sites
+	-> Printing at chr: JASDQU010948284.1 pos:9858 chunknumber 107000 contains 255 sites
+	-> Printing at chr: JASDQU010948616.1 pos:34027 chunknumber 107100 contains 1238 sites
+	-> Printing at chr: JASDQU010948908.1 pos:50404 chunknumber 107200 contains 390 sites
+	-> Printing at chr: JASDQU010949253.1 pos:36083 chunknumber 107300 contains 449 sites
+	-> Printing at chr: JASDQU010949593.1 pos:50258 chunknumber 107400 contains 278 sites
+	-> Printing at chr: JASDQU010949870.1 pos:56316 chunknumber 107500 contains 337 sites
+PROBS at: JASDQU010952879.1	1095
+	-> Printing at chr: JASDQU010955485.1 pos:5847 chunknumber 107600 contains 122 sites
+No data for chromoId=24109 chromoname=JASDQU010955930.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010957555.1 pos:4952 chunknumber 107700 contains 647 sites
+	-> Printing at chr: JASDQU010960081.1 pos:134664 chunknumber 107800 contains 958 sites
+PROBS at: JASDQU010960424.1	176
+	-> Printing at chr: JASDQU010962769.1 pos:8 chunknumber 107900 contains 370 sites
+	-> Printing at chr: JASDQU010970515.1 pos:542 chunknumber 108000 contains 699 sites
+	-> Printing at chr: JASDQU010977294.1 pos:654 chunknumber 108100 contains 172 sites
+	-> Printing at chr: JASDQU010985028.1 pos:2599 chunknumber 108200 contains 167 sites
+No data for chromoId=24312 chromoname=JASDQU010991491.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU010994480.1 pos:2467 chunknumber 108300 contains 258 sites
+No data for chromoId=24326 chromoname=JASDQU010994671.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011004238.1 pos:795 chunknumber 108400 contains 305 sites
+	-> Printing at chr: JASDQU011010992.1 pos:560 chunknumber 108500 contains 1005 sites
+	-> Printing at chr: JASDQU011014027.1 pos:4652 chunknumber 108600 contains 417 sites
+	-> Printing at chr: JASDQU011025144.1 pos:25957 chunknumber 108700 contains 2268 sites
+	-> Printing at chr: JASDQU011025352.1 pos:30220 chunknumber 108800 contains 522 sites
+	-> Printing at chr: JASDQU011025675.1 pos:371 chunknumber 108900 contains 2007 sites
+	-> Printing at chr: JASDQU011025943.1 pos:1601 chunknumber 109000 contains 4082 sites
+	-> Printing at chr: JASDQU011026190.1 pos:36409 chunknumber 109100 contains 390 sites
+	-> Printing at chr: JASDQU011026498.1 pos:3095 chunknumber 109200 contains 1955 sites
+	-> Printing at chr: JASDQU011026696.1 pos:39843 chunknumber 109300 contains 279 sites
+	-> Printing at chr: JASDQU011026878.1 pos:28437 chunknumber 109400 contains 1046 sites
+	-> Printing at chr: JASDQU011027132.1 pos:28578 chunknumber 109500 contains 1431 sites
+	-> Printing at chr: JASDQU011027420.1 pos:28280 chunknumber 109600 contains 896 sites
+	-> Printing at chr: JASDQU011027657.1 pos:37060 chunknumber 109700 contains 392 sites
+	-> Printing at chr: JASDQU011027829.1 pos:49742 chunknumber 109800 contains 278 sites
+	-> Printing at chr: JASDQU011028085.1 pos:46896 chunknumber 109900 contains 159 sites
+	-> Printing at chr: JASDQU011028452.1 pos:40858 chunknumber 110000 contains 278 sites
+	-> Printing at chr: JASDQU011028667.1 pos:42256 chunknumber 110100 contains 390 sites
+	-> Printing at chr: JASDQU011028967.1 pos:16460 chunknumber 110200 contains 1118 sites
+	-> Printing at chr: JASDQU011029315.1 pos:1365 chunknumber 110300 contains 31561 sites
+	-> Printing at chr: JASDQU011029728.1 pos:1499 chunknumber 110400 contains 5288 sites
+	-> Printing at chr: JASDQU011030088.1 pos:29508 chunknumber 110500 contains 728 sites
+No data for chromoId=24887 chromoname=JASDQU011032611.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+No data for chromoId=24901 chromoname=JASDQU011035590.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011038141.1 pos:945 chunknumber 110600 contains 414 sites
+	-> Printing at chr: JASDQU011044320.1 pos:569 chunknumber 110700 contains 535 sites
+PROBS at: JASDQU011048395.1	156
+	-> Printing at chr: JASDQU011052430.1 pos:2354 chunknumber 110800 contains 11 sites
+No data for chromoId=24990 chromoname=JASDQU011055366.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011063123.1 pos:2176 chunknumber 110900 contains 227 sites
+	-> Printing at chr: JASDQU011071782.1 pos:3708 chunknumber 111000 contains 108 sites
+	-> Printing at chr: JASDQU011074355.1 pos:4238 chunknumber 111100 contains 371 sites
+	-> Printing at chr: JASDQU011087315.1 pos:29 chunknumber 111200 contains 1485 sites
+PROBS at: JASDQU011090776.1	2078
+No data for chromoId=25142 chromoname=JASDQU011098656.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011098977.1 pos:1093 chunknumber 111300 contains 740 sites
+	-> Printing at chr: JASDQU011100403.1 pos:24784 chunknumber 111400 contains 654 sites
+	-> Printing at chr: JASDQU011100748.1 pos:36606 chunknumber 111500 contains 1619 sites
+	-> Printing at chr: JASDQU011101136.1 pos:451 chunknumber 111600 contains 4922 sites
+	-> Printing at chr: JASDQU011101411.1 pos:27624 chunknumber 111700 contains 888 sites
+	-> Printing at chr: JASDQU011101685.1 pos:13907 chunknumber 111800 contains 2989 sites
+	-> Printing at chr: JASDQU011102087.1 pos:121 chunknumber 111900 contains 10463 sites
+	-> Printing at chr: JASDQU011102379.1 pos:13818 chunknumber 112000 contains 1114 sites
+	-> Printing at chr: JASDQU011102763.1 pos:28556 chunknumber 112100 contains 761 sites
+PROBS at: JASDQU011103022.1	21259
+PROBS at: JASDQU011103022.1	21420
+	-> Printing at chr: JASDQU011103114.1 pos:52142 chunknumber 112200 contains 204 sites
+	-> Printing at chr: JASDQU011103488.1 pos:11090 chunknumber 112300 contains 4259 sites
+	-> Printing at chr: JASDQU011103950.1 pos:24487 chunknumber 112400 contains 313 sites
+	-> Printing at chr: JASDQU011104464.1 pos:84333 chunknumber 112500 contains 769 sites
+	-> Printing at chr: JASDQU011104707.1 pos:1794 chunknumber 112600 contains 17739 sites
+	-> Printing at chr: JASDQU011105048.1 pos:3559 chunknumber 112700 contains 343 sites
+	-> Printing at chr: JASDQU011116262.1 pos:2212 chunknumber 112800 contains 34 sites
+	-> Printing at chr: JASDQU011124199.1 pos:1040 chunknumber 112900 contains 866 sites
+	-> Printing at chr: JASDQU011127115.1 pos:2492 chunknumber 113000 contains 177 sites
+No data for chromoId=25572 chromoname=JASDQU011127608.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011129720.1 pos:2455 chunknumber 113100 contains 556 sites
+	-> Printing at chr: JASDQU011140709.1 pos:371 chunknumber 113200 contains 1418 sites
+No data for chromoId=25651 chromoname=JASDQU011149427.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011155932.1 pos:121 chunknumber 113300 contains 1883 sites
+	-> Printing at chr: JASDQU011163466.1 pos:1034 chunknumber 113400 contains 681 sites
+No data for chromoId=25697 chromoname=JASDQU011164757.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011174491.1 pos:628 chunknumber 113500 contains 139 sites
+	-> Printing at chr: JASDQU011175275.1 pos:25702 chunknumber 113600 contains 417 sites
+	-> Printing at chr: JASDQU011175610.1 pos:4518 chunknumber 113700 contains 755 sites
+	-> Printing at chr: JASDQU011175881.1 pos:437 chunknumber 113800 contains 4203 sites
+	-> Printing at chr: JASDQU011176254.1 pos:14320 chunknumber 113900 contains 4968 sites
+	-> Printing at chr: JASDQU011176577.1 pos:40000 chunknumber 114000 contains 9429 sites
+	-> Printing at chr: JASDQU011176990.1 pos:109 chunknumber 114100 contains 5021 sites
+	-> Printing at chr: JASDQU011177476.1 pos:31307 chunknumber 114200 contains 1031 sites
+	-> Printing at chr: JASDQU011177907.1 pos:3258 chunknumber 114300 contains 4064 sites
+	-> Printing at chr: JASDQU011178260.1 pos:1563 chunknumber 114400 contains 6055 sites
+	-> Printing at chr: JASDQU011178651.1 pos:509 chunknumber 114500 contains 5053 sites
+	-> Printing at chr: JASDQU011178919.1 pos:16423 chunknumber 114600 contains 257 sites
+	-> Printing at chr: JASDQU011179280.1 pos:4056 chunknumber 114700 contains 8821 sites
+	-> Printing at chr: JASDQU011179578.1 pos:215 chunknumber 114800 contains 3610 sites
+	-> Printing at chr: JASDQU011179898.1 pos:58071 chunknumber 114900 contains 201 sites
+	-> Printing at chr: JASDQU011186838.1 pos:1225 chunknumber 115000 contains 57 sites
+	-> Printing at chr: JASDQU011204013.1 pos:1 chunknumber 115100 contains 1158 sites
+	-> Printing at chr: JASDQU011218449.1 pos:857 chunknumber 115200 contains 233 sites
+PROBS at: JASDQU011228964.1	409
+	-> Printing at chr: JASDQU011232380.1 pos:1601 chunknumber 115300 contains 142 sites
+	-> Printing at chr: JASDQU011237776.1 pos:4458 chunknumber 115400 contains 22 sites
+	-> Printing at chr: JASDQU011243104.1 pos:1132 chunknumber 115500 contains 315 sites
+	-> Printing at chr: JASDQU011245299.1 pos:14250 chunknumber 115600 contains 116 sites
+	-> Printing at chr: JASDQU011245668.1 pos:1513 chunknumber 115700 contains 1386 sites
+PROBS at: JASDQU011245741.1	33146
+	-> Printing at chr: JASDQU011245904.1 pos:21932 chunknumber 115800 contains 163 sites
+	-> Printing at chr: JASDQU011246225.1 pos:472 chunknumber 115900 contains 1881 sites
+	-> Printing at chr: JASDQU011246818.1 pos:362 chunknumber 116000 contains 3473 sites
+	-> Printing at chr: JASDQU011247268.1 pos:25400 chunknumber 116100 contains 88 sites
+	-> Printing at chr: JASDQU011247651.1 pos:23269 chunknumber 116200 contains 945 sites
+	-> Printing at chr: JASDQU011248055.1 pos:42528 chunknumber 116300 contains 173 sites
+	-> Printing at chr: JASDQU011248324.1 pos:723 chunknumber 116400 contains 3785 sites
+	-> Printing at chr: JASDQU011248688.1 pos:25152 chunknumber 116500 contains 238 sites
+	-> Printing at chr: JASDQU011249380.1 pos:708 chunknumber 116600 contains 4723 sites
+	-> Printing at chr: JASDQU011249846.1 pos:22844 chunknumber 116700 contains 201 sites
+PROBS at: JASDQU011254621.1	402
+	-> Printing at chr: JASDQU011264849.1 pos:1032 chunknumber 116800 contains 263 sites
+	-> Printing at chr: JASDQU011276808.1 pos:1158 chunknumber 116900 contains 113 sites
+	-> Printing at chr: JASDQU011291501.1 pos:2511 chunknumber 117000 contains 551 sites
+	-> Printing at chr: JASDQU011293966.1 pos:5382 chunknumber 117100 contains 129 sites
+No data for chromoId=26674 chromoname=JASDQU011298791.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+No data for chromoId=26686 chromoname=JASDQU011305119.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011308534.1 pos:435 chunknumber 117200 contains 251 sites
+	-> Printing at chr: JASDQU011310265.1 pos:2981 chunknumber 117300 contains 10380 sites
+	-> Printing at chr: JASDQU011310585.1 pos:29227 chunknumber 117400 contains 278 sites
+	-> Printing at chr: JASDQU011311221.1 pos:17079 chunknumber 117500 contains 154 sites
+PROBS at: JASDQU011311419.1	49586
+	-> Printing at chr: JASDQU011311650.1 pos:22776 chunknumber 117600 contains 127 sites
+	-> Printing at chr: JASDQU011312183.1 pos:19531 chunknumber 117700 contains 19 sites
+	-> Printing at chr: JASDQU011312682.1 pos:63210 chunknumber 117800 contains 942 sites
+	-> Printing at chr: JASDQU011313013.1 pos:217 chunknumber 117900 contains 7603 sites
+	-> Printing at chr: JASDQU011313379.1 pos:22934 chunknumber 118000 contains 225 sites
+	-> Printing at chr: JASDQU011313802.1 pos:23636 chunknumber 118100 contains 2885 sites
+	-> Printing at chr: JASDQU011314194.1 pos:27735 chunknumber 118200 contains 554 sites
+	-> Printing at chr: JASDQU011314540.1 pos:22201 chunknumber 118300 contains 559 sites
+	-> Printing at chr: JASDQU011314844.1 pos:46358 chunknumber 118400 contains 924 sites
+	-> Printing at chr: JASDQU011329760.1 pos:254 chunknumber 118500 contains 273 sites
+	-> Printing at chr: JASDQU011344373.1 pos:26 chunknumber 118600 contains 869 sites
+	-> Printing at chr: JASDQU011348160.1 pos:4120 chunknumber 118700 contains 448 sites
+	-> Printing at chr: JASDQU011359411.1 pos:966 chunknumber 118800 contains 165 sites
+	-> Printing at chr: JASDQU011375017.1 pos:15037 chunknumber 118900 contains 278 sites
+	-> Printing at chr: JASDQU011375372.1 pos:21158 chunknumber 119000 contains 829 sites
+	-> Printing at chr: JASDQU011375850.1 pos:22288 chunknumber 119100 contains 277 sites
+	-> Printing at chr: JASDQU011376309.1 pos:8611 chunknumber 119200 contains 328 sites
+	-> Printing at chr: JASDQU011376717.1 pos:3733 chunknumber 119300 contains 6812 sites
+	-> Printing at chr: JASDQU011377080.1 pos:25887 chunknumber 119400 contains 201 sites
+	-> Printing at chr: JASDQU011377486.1 pos:11514 chunknumber 119500 contains 2285 sites
+	-> Printing at chr: JASDQU011377884.1 pos:15130 chunknumber 119600 contains 1629 sites
+PROBS at: JASDQU011378102.1	8870
+	-> Printing at chr: JASDQU011378332.1 pos:30937 chunknumber 119700 contains 856 sites
+	-> Printing at chr: JASDQU011378740.1 pos:21975 chunknumber 119800 contains 49 sites
+	-> Printing at chr: JASDQU011379108.1 pos:3022 chunknumber 119900 contains 52 sites
+	-> Printing at chr: JASDQU011379515.1 pos:44775 chunknumber 120000 contains 538 sites
+	-> Printing at chr: JASDQU011379798.1 pos:18711 chunknumber 120100 contains 1997 sites
+	-> Printing at chr: JASDQU011400096.1 pos:39 chunknumber 120200 contains 2409 sites
+	-> Printing at chr: JASDQU011400417.1 pos:93216 chunknumber 120300 contains 278 sites
+	-> Printing at chr: JASDQU011400625.1 pos:371 chunknumber 120400 contains 8214 sites
+	-> Printing at chr: JASDQU011400842.1 pos:65747 chunknumber 120500 contains 413 sites
+	-> Printing at chr: JASDQU011401038.1 pos:100307 chunknumber 120600 contains 1959 sites
+	-> Printing at chr: JASDQU011401187.1 pos:119283 chunknumber 120700 contains 191 sites
+	-> Printing at chr: JASDQU011401338.1 pos:63022 chunknumber 120800 contains 2871 sites
+	-> Printing at chr: JASDQU011401499.1 pos:25553 chunknumber 120900 contains 1174 sites
+	-> Printing at chr: JASDQU011401657.1 pos:50801 chunknumber 121000 contains 546 sites
+	-> Printing at chr: JASDQU011401989.1 pos:1164 chunknumber 121100 contains 18274 sites
+	-> Printing at chr: JASDQU011402199.1 pos:75336 chunknumber 121200 contains 665 sites
+	-> Printing at chr: JASDQU011402462.1 pos:104963 chunknumber 121300 contains 541 sites
+	-> Printing at chr: JASDQU011402715.1 pos:83 chunknumber 121400 contains 11745 sites
+	-> Printing at chr: JASDQU011402895.1 pos:46821 chunknumber 121500 contains 863 sites
+	-> Printing at chr: JASDQU011403142.1 pos:46911 chunknumber 121600 contains 1461 sites
+	-> Printing at chr: JASDQU011403357.1 pos:97118 chunknumber 121700 contains 3303 sites
+	-> Printing at chr: JASDQU011403522.1 pos:686 chunknumber 121800 contains 5542 sites
+	-> Printing at chr: JASDQU011403656.1 pos:100958 chunknumber 121900 contains 364 sites
+	-> Printing at chr: JASDQU011403868.1 pos:36428 chunknumber 122000 contains 1203 sites
+	-> Printing at chr: JASDQU011404079.1 pos:137961 chunknumber 122100 contains 142 sites
+	-> Printing at chr: JASDQU011404251.1 pos:52316 chunknumber 122200 contains 411 sites
+	-> Printing at chr: JASDQU011404442.1 pos:69631 chunknumber 122300 contains 627 sites
+	-> Printing at chr: JASDQU011404631.1 pos:1047 chunknumber 122400 contains 6776 sites
+	-> Printing at chr: JASDQU011404755.1 pos:8 chunknumber 122500 contains 3132 sites
+	-> Printing at chr: JASDQU011410625.1 pos:363 chunknumber 122600 contains 337 sites
+	-> Printing at chr: JASDQU011431010.1 pos:632 chunknumber 122700 contains 464 sites
+	-> Printing at chr: JASDQU011440023.1 pos:22328 chunknumber 122800 contains 528 sites
+	-> Printing at chr: JASDQU011440613.1 pos:13488 chunknumber 122900 contains 111 sites
+	-> Printing at chr: JASDQU011441034.1 pos:3996 chunknumber 123000 contains 1294 sites
+	-> Printing at chr: JASDQU011441313.1 pos:42906 chunknumber 123100 contains 382 sites
+	-> Printing at chr: JASDQU011441652.1 pos:17537 chunknumber 123200 contains 2224 sites
+	-> Printing at chr: JASDQU011441980.1 pos:41196 chunknumber 123300 contains 505 sites
+	-> Printing at chr: JASDQU011442416.1 pos:69440 chunknumber 123400 contains 223 sites
+	-> Printing at chr: JASDQU011442788.1 pos:29941 chunknumber 123500 contains 305 sites
+	-> Printing at chr: JASDQU011443238.1 pos:991 chunknumber 123600 contains 11197 sites
+	-> Printing at chr: JASDQU011443499.1 pos:20868 chunknumber 123700 contains 851 sites
+	-> Printing at chr: JASDQU011443868.1 pos:1825 chunknumber 123800 contains 4232 sites
+	-> Printing at chr: JASDQU011444320.1 pos:59199 chunknumber 123900 contains 499 sites
+	-> Printing at chr: JASDQU011444667.1 pos:22657 chunknumber 124000 contains 284 sites
+	-> Printing at chr: JASDQU011453178.1 pos:54 chunknumber 124100 contains 268 sites
+PROBS at: JASDQU011455094.1	16507
+	-> Printing at chr: JASDQU011455129.1 pos:150209 chunknumber 124200 contains 278 sites
+	-> Printing at chr: JASDQU011456503.1 pos:2758 chunknumber 124300 contains 256 sites
+	-> Printing at chr: JASDQU011461719.1 pos:1143 chunknumber 124400 contains 238 sites
+No data for chromoId=28469 chromoname=JASDQU011463506.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+No data for chromoId=28486 chromoname=JASDQU011476307.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011487736.1 pos:669 chunknumber 124500 contains 233 sites
+	-> Printing at chr: JASDQU011504847.1 pos:50 chunknumber 124600 contains 14882 sites
+	-> Printing at chr: JASDQU011505345.1 pos:1 chunknumber 124700 contains 4949 sites
+	-> Printing at chr: JASDQU011505760.1 pos:15604 chunknumber 124800 contains 236 sites
+	-> Printing at chr: JASDQU011506073.1 pos:72376 chunknumber 124900 contains 327 sites
+	-> Printing at chr: JASDQU011506457.1 pos:34941 chunknumber 125000 contains 756 sites
+	-> Printing at chr: JASDQU011506832.1 pos:15935 chunknumber 125100 contains 85 sites
+	-> Printing at chr: JASDQU011507271.1 pos:21914 chunknumber 125200 contains 410 sites
+	-> Printing at chr: JASDQU011507732.1 pos:50739 chunknumber 125300 contains 1843 sites
+	-> Printing at chr: JASDQU011508221.1 pos:32535 chunknumber 125400 contains 735 sites
+	-> Printing at chr: JASDQU011508676.1 pos:30241 chunknumber 125500 contains 729 sites
+	-> Printing at chr: JASDQU011509068.1 pos:20339 chunknumber 125600 contains 897 sites
+	-> Printing at chr: JASDQU011509499.1 pos:44787 chunknumber 125700 contains 648 sites
+	-> Printing at chr: JASDQU011510790.1 pos:2111 chunknumber 125800 contains 1346 sites
+	-> Printing at chr: JASDQU011513847.1 pos:5146 chunknumber 125900 contains 357 sites
+PROBS at: JASDQU011514373.1	5297
+	-> Printing at chr: JASDQU011517533.1 pos:43 chunknumber 126000 contains 279 sites
+	-> Printing at chr: JASDQU011539046.1 pos:1052 chunknumber 126100 contains 190 sites
+No data for chromoId=28947 chromoname=JASDQU011553963.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=95
+	-> Printing at chr: JASDQU011555572.1 pos:1073 chunknumber 126200 contains 134 sites
+No data for chromoId=28952 chromoname=JASDQU011559188.1
+This could either indicate that there really is no data for this chromosome
+Or it could be problem with this program regSize=0 notDone=94
+
+	-> Done reading data waiting for calculations to finish
+	-> Done waiting for threads
+	-> Output filenames:
+		->"/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso.arg"
+		->"/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso.saf.gz"
+		->"/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso.saf.pos.gz"
+		->"/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso.saf.idx"
+	-> Tue Nov 11 20:16:05 2025
+	-> Arguments and parameters for all analysis are located in .arg file
+	-> Total number of sites analyzed: 592037283
+	-> Number of sites retained after filtering: 99394753 
+	[ALL done] cpu-time used =  15559.00 sec
+	[ALL done] walltime used =  15644.00 sec

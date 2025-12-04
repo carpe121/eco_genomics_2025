@@ -1,0 +1,5 @@
+	-> angsd version: 0.935 (htslib: 1.19.1) build(Dec 18 2024 17:12:57)
+	-> angsd -ybin /users/m/c/mcarpen3/projects/eco_genomics_2025/final_proj/assoc.ybin -doAsso 1 -bam /users/m/c/mcarpen3/projects/eco_genomics_2025/final_proj/final_bam.list -out /gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_asso_2 -GL 1 -fai /gpfs1/cl/ecogen/pbio6800/PopulationGenomics/ref_genome/Pmariana/Pmariana1.0-genome_reduced.fa.fai -doMajorMinor 1 -SNP_pval 1e-6 -doMaf 1 
+	-> Inputtype is BAM/CRAM
+[E::hts_open_format] Failed to open file "2019_25_N.sorted.rmdup.bam" : No such file or directory
+[openBAM] nonexistant file: 2019_25_N.sorted.rmdup.bam
