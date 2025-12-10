@@ -1,5 +1,5 @@
 library(tidyverse)
-library(qvalue) # cite Storey 2011
+library(qvalue) # Storey 2011
 
 outs <- read.delim("hotcon_asso_2.lrt0", header=T)
 pval <- 1-pchisq(outs$LRT, df=1)

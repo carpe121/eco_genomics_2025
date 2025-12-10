@@ -15,7 +15,7 @@ rs_bed <- read.table("/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/RS_bt2
 colnames(rs_bed) <- c("contig", "start", "stop", "geneID")
 rb2 <- rs_bed %>% select(contig)
 
-## MERGE FILES 
+## MERGE TO GET ALL KNOWN SITES q < 0.05 ##
 rbinner <- merge(rb2, ga_new, by="contig")##
 rbonto <- rbinner %>% 
   select(gene, start)
@@ -23,9 +23,13 @@ rbonto$gene <- gsub("Ontology_term=", '', rbonto$gene)
 rbonto$gene <- gsub(",", ", ", rbonto$gene)
 colnames(rbonto) <- c("gene", "contig")
 
-#output is list of all known sites associated with GO terms with q < 0.05
+# output is list of *ALL* known sites associated with GO terms with q < 0.05
 
 #write.table(rbonto, "GO_table_spruce.tsv", sep="\t", col.names=TRUE, quote=FALSE)
+
+# saved as allsigGO.txt
+
+## READ IN Q-VALUES ASSOCIATED WITH SITES ##
 
 fdr <- read.table("/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/hotcon_fdr.tsv", header=T)
 fdr_subs <- fdr %>% 
@@ -35,45 +39,69 @@ fdr_subs <- fdr %>%
 
 colnames(fdr_subs) <- c("contig", "qval")
 
+# Merge with rbonto to et q-values for all genes
 fdr_sig <- merge(fdr_subs, rbonto, by="contig")
 fdr_sig2 <- fdr_sig %>% 
   filter(grepl("GO:", gene)) %>%
   select(gene)
 
-write.table(fdr_sig2, "GO_spruce_fdr.tsv", sep="\t", col.names=FALSE, quote=FALSE)
+write.table(fdr_sig2, "GO_spruce_fdr.tsv", sep="\t", col.names=FALSE, quote=FALSE, row.names=FALSE)
 
 # output is data table of 1000 MOST SIGNIFICANT SITES associated with GO terms
 
-# switch to unix
 # COMMAND TO OUTPUT LIST FOR REViGO
-# sed 's/'GO'/\n'GO'/g' GO_spruce_fdr.tsv | sed 's/','/''/g' test.txt > test2.txt | awk '/GO/ {print}' | uniq > final.txt
+# switch to unix
+# sed 's/'GO'/\n'GO'/g' GO_spruce_fdr.tsv | sed 's/','/''/g' | awk '/GO/ {print}' | uniq > final.txt
 # wc -l = 4810127
 
 ## COMPARE TO TRANSCRIPTION DATA ##
-# Fit rbonto data for processing #
 
+# Fit rbonto data for processing #
 rbon2 <- rbonto %>% select(gene)
 write.table(rbon2, "all_GO_spruce.tsv", sep="\t", col.names=TRUE, quote=FALSE)
 
 ## UNIX
 # sed 's/'GO'/\n'GO'/g' all_GO_spruce.tsv | sed 's/','/''/g' | awk '/GO/ {print}' | uniq > all_GOfinal.txt
 
+# Read in transcriptomics GO terms
+setwd("/gpfs1/cl/ecogen/pbio6800/GroupProjects/hotConifers/transcriptGO_results")
+
 temp = list.files(pattern="\\.txt$")
 myfiles = lapply(temp, read.table)
 
+setwd("..")
+
 names(myfiles) <- c("cwCvsDH", "cwCvH", "cwHvsDH", "hdCvsDH", "hdCvsH", "hdHvsDH")
 
+# Read in all GOs
+allgos <- read.table("allsigGO.txt", header=F)
+
+# Join transcriptomics GO terms to significant association GOs from RED SPRUCE
 outs <- list()
+antouts <- list()
 
 for(i in 1:as.numeric(length(temp))){
   rep <- myfiles[[i]]
   colnames(rep) <- rep[1,]
   rep_2 <- rep %>% slice(-1)
-  inj <- inner_join(rep_2, all_GOs, join_by(GO.ID==V1))
+  inj <- inner_join(rep_2, allgos, join_by(GO.ID==V1))
+  anti_inj <- anti_join(rep_2, allgos, join_by(GO.ID==V1))
   outs[[i]] <- unique(inj$GO.ID)
+  antouts[[i]] <- unique(anti_inj$GO.ID)
 }
 
+# Write resulting MATCHED TO RS dfs to cluster
 for(i in 1:as.numeric(length(temp))){
   y <- as_tibble(assign((names(myfiles))[i], outs[[i]]))
-  write.table(y, paste0((names(myfiles)[i]), ".tsv"), sep="\t", quote=FALSE, col.names=FALSE, row.names=FALSE)
+  write.table(y, 
+              paste0((names(myfiles)[i]), ".tsv"), 
+              sep="\t", quote=FALSE, col.names=FALSE, row.names=FALSE)
 }
+  
+# Write resulting UNMATCHED TO RS dfs to cluster
+for(i in 1:as.numeric(length(temp))){
+    y <- as_tibble(assign((names(myfiles))[i], antouts[[i]]))
+    write.table(y, 
+                paste0("unmatched", (names(myfiles)[i]), ".tsv"), 
+                sep="\t", quote=FALSE, col.names=FALSE, row.names=FALSE)
+  }
